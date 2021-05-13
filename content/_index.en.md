@@ -1,11 +1,12 @@
 ---
-title: "WORKSHOP TOPIC"
+title: "Git & Github through GitKraken - From Zero to Hero! "
 ---
 
-# WORKSHOP TITLE
+# Git & Github through GitKraken - From Zero to Hero! 
 
-Workshop description  
+In this course you'll be learning version control and collaboration through Git, GitHub & GitKraken
 
-* Learning Objective 1
-* Learning Objective 2
-* Learning Objective 3
+* Version controlling your own project through Git & GitHub.
+* Basic collaboration through forks on GitHub.
+* Advanced team collaboration through branches on GitHub.
+* Using the GitKraken GUI for a smooth version control experience.
