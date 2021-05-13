@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "WORKSHOP TITLE"
-description = "Materials for RSE Sheffield workshop on 'WORKSHOP TITLE'"
+title = "Git & Github through GitKraken - From Zero to Hero!"
+description = "Materials for RSE Sheffield workshop on 'Git & Github through GitKraken - From Zero to Hero! '"
 pygmentsUseClasses=true
 enableEmoji = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "index\\.html", '\.knit\.md$', '\.utf8\.md$']
