@@ -49,8 +49,8 @@ weight = 40
 
 [params]
   editURL = "https://github.com/RSE-Sheffield/git-github-zero-to-hero/edit/master/content/"
-  description = "WORKSHOP TITLE"
-  author = "AUTHOR NAME(S), Sheffield RSE"
+  description = "Git & Github through GitKraken - From Zero to Hero!"
+  author = "Anna Krystalli, Sheffield RSE"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
