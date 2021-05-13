@@ -22,14 +22,14 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "WORKSHOP TITLE"
+title = "Git & Github through GitKraken - From Zero to Hero!"
 weight = 1
 languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
 identifier = "ds"
-url = "https://github.com/RSE-Sheffield/rse-workshop-materials-template"
+url = "https://github.com/RSE-Sheffield/git-github-zero-to-hero"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
@@ -48,7 +48,7 @@ url = "https://creativecommons.org/licenses/by/4.0/"
 weight = 40
 
 [params]
-  editURL = "https://github.com/RSE-Sheffield/rse-workshop-materials-template/edit/main/content/"
+  editURL = "https://github.com/RSE-Sheffield/git-github-zero-to-hero/edit/master/content/"
   description = "WORKSHOP TITLE"
   author = "AUTHOR NAME(S), Sheffield RSE"
   showVisitedLinks = true
