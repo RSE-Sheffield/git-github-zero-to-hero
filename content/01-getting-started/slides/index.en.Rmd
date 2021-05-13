@@ -1,0 +1,55 @@
+---
+outputs:
+- Reveal
+title: Introductory slides
+hidden: true
+layout: list
+weight: 1
+output: hugodown::md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# COURSE TITLE
+
+:wave: Welcome!
+
+---
+
+I'm INSTRUCTORS_NAME, I like ..., ... and .....
+
+{{% fragment %}}
+
+:house: https://rse.shef.ac.uk
+
+{{% /fragment %}}
+
+---
+
+# CODE
+
+---
+
+## Markdown content
+
+- use markdown as usual and include emojis with just `:` eg `:grin:` -> :grin:
+- use {{% fragment %}} TEXT {{% /fragment %}} to reveal content sequentially
+- {{% fragment %}} TEXT {{% /fragment %}}
+
+---
+
+### Bash code
+
+```{bash}
+ls ..
+```
+
+---
+
+### Even python code
+```{python}
+print('hello world')
+```
+
