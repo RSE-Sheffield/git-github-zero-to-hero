@@ -30,20 +30,25 @@ Once you have decide on a team repo owner, please copy the template provided in 
 
 #### Template
 
-{{% notice note %}}
+> **Team members (github usernames):** <br>
+> **Team repo URL:** <br>
+> **Team repo owner (github username):**  
 
 
-**Team members (github usernames):** <br>
-**Team repo URL:** <br>
-**Team repo owner (github username):**  
-
-
-{{% /notice %}}
-
-## Make a copy of project template
+## [OWNER] Make a copy of project template
 
 The project we will be working with and contributing to will be based on the repo: https://github.com/RSE-Sheffield/python-calculator
 
-The project owner of each team will make a copy of the template and the rest of the team will contribute to their own team copy of the repository.
+The **project owner of each team will make a copy of the template** and the rest of the team will **contribute to their own team copy of the repository**.
 
 To make a copy, first click on the {{% button href="https://github.com/RSE-Sheffield/python-calculator/generate" %}}**Use this template** {{% /button %}} button
+
+For consistency, use the same name **`python-calculator`** for your own team projects.
+
+Create your copy and the details of your team repository to the collaborative notepad so your team mates can access it.
+
+## [OWNER] Add your team mates as collaborators
+
+
+
+## [OWNER] Protect the `main` branch
