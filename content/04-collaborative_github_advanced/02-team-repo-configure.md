@@ -69,7 +69,7 @@ Next, edit the:
 - <i class="fas fa-check-square" ></i> Complete the **url** with your github account details.
 - <i class="fas fa-check-square" ></i> Complete the **Bug Tracker** field under **project_urls** again with your github account details.
 
-Press **Command + S** or **Ctrl + S** to save your changes.
+Press <img src="/images/command-symbol.png" width="2px" style="align:left; display:inline; margin:0;"/> **| Ctrl + S** to save your changes.
 
 {{< figure src="/images/ag-gk-cfg-edit-details.png" >}}
 ## <i class="fas fa-user-circle"></i> Commit changes to `setup.cfg`
@@ -136,3 +136,22 @@ Clicking on that, navigates you to the PR page on GitHub. You can see that the C
 {{< figure src="/images/ag-gk-cfg-pr-gh-view.png" >}}
 
 ## <i class="fas fa-users"></i> Review Pull Request
+
+Next, the team member the owner requested a review from should perform the review. Other team member's could also do this but to keep things simple let's just let the assigned reviewer do this.
+
+In the pull request, the reviewer has the opportunity to inspect the changes made in the pull request.
+
+{{< figure src="/images/ag-cfg-pr-inspect.png" >}}
+
+ and submit their review.
+
+They can:
+- add a comment
+- approve the review
+
+{{< figure src="/images/ag-cfg-pr-rev-gen-init.png" >}}
+
+{{< figure src="/images/ag-cfg-pr-rev-code-init.png" >}}
+
+
+## <i class="fas fa-user-circle"></i> Merge Pull Request
