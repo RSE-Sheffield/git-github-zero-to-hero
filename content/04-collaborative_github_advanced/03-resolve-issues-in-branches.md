@@ -119,7 +119,7 @@ The issue is also now listed under the <i class="fas fa-exclamation-circle"></i>
 
 Now that tasks have ben assigned through issues, it's **time for team mates to get to work!**
 
-Let's **follow an example workflow by one of my team mates**, bobturneruk, who will be tackling the _add a subtract function_ issue we I just opened and assigned to him.
+Let's **follow an example workflow by one of my team mates**, bobturneruk, who will be tackling the _add a subtract function_ issue I just opened and assigned to him.
 
 ### Example: Resolve subtract function issue
 
@@ -131,7 +131,7 @@ Let's **follow an example workflow by one of my team mates**, bobturneruk, who w
 
 {{% /notice %}}
 
-To begin resolving the task, Bob **first needs to creates a new branch off the `main` branch** to work in. Before that, he checks that his **<i class="fas fa-laptop"></i> local `main` branch** is in synch with the **<i class="fas fa-cloud"></i> origin `main` branch**.
+To begin resolving the task, Bob **first needs to create a new branch off the `main` branch** to work in. Before that, he checks that his **<i class="fas fa-laptop"></i> local `main` branch** is in synch with the **<i class="fas fa-cloud"></i> origin `main` branch** and that the `main` branch is checked out.
 
 {{% notice tip %}}
 
@@ -143,7 +143,7 @@ Start by clicking the {{% button href="" %}} **Branch** <br> **<i class="fas fa-
 
 {{< figure src="/images/ag-sub-branch-init.png" >}}
 
-The `subtract` branch has now been created and been **checked out** (indicated by the fact that the the **<i class="fas fa-check-square" style="color:#7CFF7E; background-color:black; padding:2px"></i> <i class="fas fa-code-branch"></i> subtract** branch in the **<i class="fas fa-laptop"></i> local** repository is now checked). 
+The **`subtract` branch has now been created and been checked out** (indicated by the fact that the the **<i class="fas fa-check-square" style="color:#7CFF7E; background-color:black; padding:2px"></i> <i class="fas fa-code-branch"></i> subtract** branch in the **<i class="fas fa-laptop"></i> local** repository is now checked). 
 
 {{< figure src="/images/ag-sub-branch.png" >}}
 
@@ -168,17 +168,17 @@ For more information check out the GitKraken documentation on [Adding a file](ht
 
 {{< figure src="/images/ag-sub-file-create.png" >}}
 
-Next, **type in the path to the new file you want to create**, In Bob's case it's `pythoncalculator/subtract.py` and hit **Enter|Return**.
+Next, **type in the path to the new file you want to create**, in Bob's case it's `pythoncalculator/subtract.py`, and hit **Enter|Return**.
 
 {{< figure src="/images/ag-sub-file-fun-create.png" >}}
 
 This **creates the new file** and **opens it up for editing!**.
 
-Next, **paste the function code** provided in the issue instructions and save,
+Next, **paste the function code** provided in the issue instructions and save.
 
 {{% notice warning %}}
 
-**Please paste the code in exactly as it is in the issue instructions**, even you find something fishy with it 🧐
+**Please paste the code in exactly as it is in the issue instructions**, even if you find something fishy with it 🧐
 
 {{% /notice %}}
 
@@ -251,11 +251,17 @@ To push the changes, click on {{% button href="" %}} **Push** <br> **<i class="f
 
 Next, on the left-hand navigation panel, hover over **PULL REQUESTS** and click on the {{% button href="" %}} **<i class="fas fa-plus-square" style="color:#7CFF7E"></i> Create pull request**{{% /button %}} button when it appears.
 
-Configure the **details of the pull request** including the **source and target repository** (in this case your copy of the repository) and the **source and target branches**, in this case Bob wants to merge the `subtract` branch into the `main` branch.
+Configure the **details of the pull request** including the **source and target repository** (in this case your team's copy of the repository) and the **source and target branches**. In this case Bob wants to merge the `subtract` branch into the `main` branch.
+
+{{% notice tip %}}
+
+You can again **include keywords**, like `resolves #issue-number-you-were-assigned` in your **pull request Title or Description to [link your pull request to your issue](https://docs.github.com/en/github/managing-your-work-on-github/managing-your-work-with-issues-and-pull-requests/linking-a-pull-request-to-an-issue)**.
+
+{{% /notice %}}
 
 If you want, you can also add the owner as a reviewer but in the next steps, they will go through the review process anyways.
 
-Finally, at the very bottom, click on {{% button href="" %}} **Create Pull Request**{{% /button %}} to submit it.
+Finally, scroll to the very bottom and click on {{% button href="" %}} **Create Pull Request**{{% /button %}} to submit it.
 
 {{< figure src="/images/ag-sub-pr-init.png" >}}
 
@@ -263,7 +269,7 @@ The **PR has now been created**, as indicated by the <i class="fas fa-code-branc
 
 {{< figure src="/images/ag-sub-pr-cmpl.png" >}}
 
-Now it's time for the project owner to **review your contribution**!
+Now it's time for the project owner to **review your contribution!**
 
 
 
