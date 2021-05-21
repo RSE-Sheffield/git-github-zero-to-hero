@@ -149,7 +149,7 @@ The `subtract` branch has now been created and been **checked out** (indicated b
 
 #### <i class="fas fa-users"></i> Add `subtract.py` file
 
-The next step in Bob's instructions is to create a new `subtract.py` file and paste the code for the `subtract` function.
+The next step in Bob's instructions is to create a new `subtract.py` file in the `pythoncalculator/` directory and paste the code for the `subtract` function.
 
 A nice feature of GitKraken is that, as well as a basic text editor, it also **allows us to create new files!**
 
@@ -176,6 +176,12 @@ This **creates the new file** and **opens it up for editing!**.
 
 Next, **paste the function code** provided in the issue instructions and save,
 
+{{% notice warning %}}
+
+**Please paste the code in exactly as it is in the issue instructions**, even you find something fishy with it 🧐
+
+{{% /notice %}}
+
 {{< figure src="/images/ag-sub-file-fun-edit.png" >}}
 
 We now need to **stage and commit the new file**. Follow the steps we've been practicing and commit your file with an appropriate commit message (e.g `add subtract function`).
@@ -186,26 +192,78 @@ Including the text `resolves #issue-number-you-were-assigned` will **link the is
 
 {{% /notice %}}
 
+{{< figure src="/images/ag-sub-file-fun-stage.png" >}}
+
+The file is now commited and we can see that **Bob's <i class="fas fa-laptop"></i> local `subtract` branch is ahead of the <i class="fas fa-cloud"></i> origin and <i class="fas fa-laptop"></i> local `main` branches by 1 commit.**
+
 {{< figure src="/images/ag-sub-file-fun-commit.png" >}}
+
+#### <i class="fas fa-users"></i> Edit `pythoncalculator/__init__.py` file
+
+Next Bob needs to **add an instruction for the new `subtract` function to be imported**. To do this, he needs to **edit `pythoncalculator/__init__.py`**.
+
+To open `pythoncalculator/__init__.py`, double click on it in the file finder panel.
+
+
+{{% notice tip %}}
+
+To see all files in the repo, tick the <i class="fas fa-check-square" style="color:#166de0; background-color:blwhiteack; padding:2px"></i> **View all files** box. You can also initiate file editing through GitKraken's fuzzy finder. More info on [editing files](https://support.gitkraken.com/working-with-files/editing-files/).
+
+{{% /notice %}}
 
 {{< figure src="/images/ag-sub-file-init-edit-init.png" >}}
 
+Once the file is open for editing, **add the import line of code from your issue to line 2 of the file**.
+
 {{< figure src="/images/ag-sub-file-init-edit.png" >}}
+
+**Save, stage and commit your changes.**
 
 {{< figure src="/images/ag-sub-file-init-commit.png" >}}
 
+#### <i class="fas fa-users"></i> Add `test_subtract.py` file
+
+The next step in Bob's instructions is to create a new `test_subtract.py` file in the `tests/` directory and paste the code for the `subtract` function test.
+
+To create the new file, **launch GitKraken's fuzzy finder** again with 
+<img src="/images/command-symbol.png" width="2px" style="align:left; display:inline; margin:0;"/> **| Ctrl + P**
+
+Next, type **File** to launches the file action dropdown menu. Select **Create file** and **type in the path to the new file you want to create**, In Bob's case it's `tests/test_subtract.py` and hit **Enter|Return**.
+
 {{< figure src="/images/ag-sub-file-test-create.png" >}}
+
+**Paste the code for the test** provided in your issue.
 
 {{< figure src="/images/ag-sub-file-test-edit.png" >}}
 
+**Save, stage and commit your changes.**
+
 {{< figure src="/images/ag-sub-file-test-commit.png" >}}
+
+#### <i class="fas fa-users"></i> Push changes and make a Pull request
+
+The final step of the process is to push the `subtract` branch to <i class="fas fa-cloud"></i> origin and make a pull request to the <i class="fas fa-cloud"></i> origin `main` branch.
+
+
+To push the changes, click on {{% button href="" %}} **Push** <br> **<i class="fas fa-upload"></i>**{{% /button %}} and accept the default name to create the `subtract branch on <i class="fas fa-cloud"></i> origin.
 
 {{< figure src="/images/ag-sub-push.png" >}}
 
+Next, on the left-hand navigation panel, hover over **PULL REQUESTS** and click on the {{% button href="" %}} **<i class="fas fa-plus-square" style="color:#7CFF7E"></i> Create pull request**{{% /button %}} button when it appears.
+
+Configure the **details of the pull request** including the **source and target repository** (in this case your copy of the repository) and the **source and target branches**, in this case Bob wants to merge the `subtract` branch into the `main` branch.
+
+If you want, you can also add the owner as a reviewer but in the next steps, they will go through the review process anyways.
+
+Finally, at the very bottom, click on {{% button href="" %}} **Create Pull Request**{{% /button %}} to submit it.
+
 {{< figure src="/images/ag-sub-pr-init.png" >}}
+
+The **PR has now been created**, as indicated by the <i class="fas fa-code-branch" style="transform: rotate(180deg) scaleX(-1);"></i> symbol on the `subtract` branch label.
 
 {{< figure src="/images/ag-sub-pr-cmpl.png" >}}
 
+Now it's time for the project owner to **review your contribution**!
 
 
 
