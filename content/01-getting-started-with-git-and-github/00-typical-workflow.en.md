@@ -25,3 +25,15 @@ After you make changes to a file you will need to **commit them** so that Git cr
 
 
 {{< figure src="/images/git-commit-workflow.png" >}}
+
+## GitKraken Interface
+
+{{< figure src="/images/gitkraken-interface.png" >}}
+
+
+{{% notice info %}}
+
+More info on GitKraken [Interface basics](https://support.gitkraken.com/start-here/interface/)
+
+{{% /notice %}}
+
