@@ -1,5 +1,5 @@
 +++
-title = "Review and merge Pull Requests"
+title = "Review 1st Pull Request - asking for corrections"
 date =  2021-05-13T17:59:21+03:00
 weight = 4
 +++
@@ -26,7 +26,7 @@ The failing tests, and in particular, the linting check by **flake8** points to 
 
 **You may also have additional errors if the instructions in the issue were followed incorrectly by your team mates.** No problem though! The review stage will help us inspect and guide our team mates to correct any additional errors.
 
-To **check that everything has been completed correctly**, refer to the [**Appendix**](/04-collaborative_github_advanced/05-appendix) in this chapter, which has the correct files and file content that should have been committed for each issue.
+To **check that everything has been completed correctly**, refer to the [**Appendix**](/04-collaborative_github_advanced/06-appendix) in this chapter, which has the correct files and file content that should have been committed for each issue.
 ### <i class="fas fa-user-circle"></i> Review pull request and request changes 
 
 
@@ -117,18 +117,4 @@ I've also gone ahead and **deleted the <i class="fas fa-cloud"></i> origin `subt
 
 {{< figure src="/images/ag-pr-sub-review-merge-cmpl.png" >}}
 
-## <i class="fas fa-user-circle"></i> Review 2nd Pull Request 
-
-{{< figure src="/images/ag-pr-2-review-merge-confilct.png" >}}
-
-{{< figure src="/images/ag-pr-2-review-merge-confilct-resolve-init.png" >}}
-
-{{< figure src="/images/ag-pr-2-review-merge-confilct-resolve-cmpl.png" >}}
-
-{{< figure src="/images/ag-pr-2-review-merge-confilct-resolve-commit.png" >}}
-
-{{< figure src="/images/ag-pr-2-review-merge-pre.png" >}}
-
-{{< figure src="/images/ag-pr-2-review-merge.png" >}}
-
-{{< figure src="/images/ag-pr-2-review-merge-issue-closed.png" >}}
+Review of the first pull request is now complete!
