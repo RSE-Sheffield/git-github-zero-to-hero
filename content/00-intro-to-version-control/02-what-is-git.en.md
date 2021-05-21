@@ -14,14 +14,6 @@ Open source (free to use) Version control software. Usually accessed via the com
 
 Git development began in 2006 after many developers of the Linux kernel gave up access to [BitKeeper](http://www.bitkeeper.org/) (at the time the best but proprietary)
 
-Linus Torvalds on the name **`git`**: 
-
-> "I'm an egotistical bastard, and I name all my projects after myself. First 'Linux', now 'git'
-
-<small>More on the name in the source code original [readme](https://github.com/git/git/tree/e83c5163316f89bfbde7d9ab23ca2e25604af290) file</small>
-
-<br>
-
 ---
 
 ## Why use it in research? 
