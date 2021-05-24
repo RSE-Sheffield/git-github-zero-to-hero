@@ -1,5 +1,5 @@
 +++
-title = "Review 1st Pull Request - asking for corrections"
+title = "Review 1st Pull Request: asking for corrections"
 date =  2021-05-13T17:59:21+03:00
 weight = 4
 +++
@@ -8,7 +8,7 @@ As the owner, it's time to **review the Pull Requests** the rest of your team ma
 
 We've actually **snuck some errors into the instructions** we provided in your team mates issues. The PR review stage provides opportunity for any problems to be identified and dealt with before merging.
 
-Let's use the first pull request made to the repo as an example. In this case, it was made by team mate **bobturneruk**, tackling [**issue #2** _Add subtraction function_](https://github.com/annakrystalli/python-calculator/issues/2) via [**pull request #5**](https://github.com/annakrystalli/python-calculator/pull/5).
+Let's use the first pull request made to the repo as an example. In this case, it was made by team mate **bobturneruk**, tackling [**issue #2** _Add subtraction function_](https://github.com/annakrystalli/python-calculator-demo/issues/2) via [**pull request #5**](https://github.com/annakrystalli/python-calculator-demo/pull/5).
 
 ## <i class="fas fa-user-circle"></i> Review 1st Subtract Pull Request 
 

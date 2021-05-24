@@ -1,5 +1,5 @@
 +++
-title = "Make first owner contribution and assign issues"
+title = "Make first owner contribution"
 date =  2021-05-13T17:58:07+03:00
 weight = 2
 +++
@@ -137,21 +137,40 @@ Clicking on that, navigates you to the PR page on GitHub. You can see that the C
 
 ## <i class="fas fa-users"></i> Review Pull Request
 
-Next, the team member the owner requested a review from should perform the review. Other team member's could also do this but to keep things simple let's just let the assigned reviewer do this.
+Next, the **team member the owner requested a review from should perform the review**. Other team member's could also do this but to keep things simple let's just let the assigned reviewer do this.
 
-In the pull request, the reviewer has the opportunity to inspect the changes made in the pull request.
+In the pull request **Files changed** tab, the reviewer has the opportunity to **inspect the changes made in the pull request**.
 
 {{< figure src="/images/ag-cfg-pr-inspect.png" >}}
 
- and submit their review.
-
-They can:
+They can also initiate a review by clicking {{% button href="" %}} **Review changes** {{% /button %}} in which they can:
 - add a comment
 - approve the review
+- explicitly request changes
+
 
 {{< figure src="/images/ag-cfg-pr-rev-gen-init.png" >}}
+
+Alternatively, the can initiate a review by inserting a comment next to a specific line of code.
 
 {{< figure src="/images/ag-cfg-pr-rev-code-init.png" >}}
 
 
 ## <i class="fas fa-user-circle"></i> Merge Pull Request
+
+Once **an approving review has been submitted** (and as long as all checks are passing), the **PR is  free to be merged!**
+
+{{< figure src="/images/ag-cfg-pr-review-cmpl.png" >}}
+
+
+{{< figure src="/images/ag-cfg-pr-merge-init.png" >}}
+
+Follow through until the PR has been merged! 
+
+To **keep the repo tidy**, as the `edit-metadata` branch is now redundant (i.e. I don't expect any further contributions in this branch regarding the particular feature it was created for), I'm going to go ahead and click **Delete branch**. 
+
+{{< figure src="/images/ag-cfg-pr-merge-cmpl.png" >}}
+
+This removes the <i class="fas fa-cloud"></i> origin `branch`. Later we'll also delete <i class="fas fa-laptop"></i> local branch also.
+
+{{< figure src="/images/ag-cfg-pr-merge-clean.png" >}}
