@@ -14,3 +14,4 @@ Next complete the details with the **username and email you used to sign up to G
 
 <br>
 
+**Also make sure you are [signed into GitHub through GitKraken](https://support.gitkraken.com/integrations/github/)**
