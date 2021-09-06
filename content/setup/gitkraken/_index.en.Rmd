@@ -3,6 +3,8 @@ title: Gitkraken
 weight: 5
 ---
 
+### Install GtiKraken
+
 To install **GitKraken** download the correct binary for your system.
 
 
@@ -13,7 +15,16 @@ knitr::include_url("https://gitkraken.com/download")
 
 Then follow the [installation instructions](https://support.gitkraken.com/how-to-install/) provided on their website. 
 
+{{% notice note %}} 
+_In the installation instructions you'll see that you do not actually need to install **Git** separately to use GitKraken as it ships it's own Git framework, NodeGit, which is primarily developed and maintained by members of the GitKraken development team. The reason we asked you to install git is that if you wanted to use git in another setting (through the command line, or integrations with VS Code or Rstudio) you would need git installed on your system. The principles of the workflow we'll be showing you remain the same._
+{{% /notice %}}
 
-In the installation instructions you'll see that you do not actually need to install **Git** separately to use GitKraken as it ships it's own Git framework, NodeGit, which is primarily developed and maintained by members of the GitKraken development team. The reason we asked you to install git is that if you wanted to use git in another setting (through the command line, or integrations with VS Code or Rstudio) you would need git installed on your system.
+### Integrating GitKraken with GitHub
 
-The principles of the workflow we'll be showing you remain the same
+In order to effectively work with GitHub repositories through GitKraken, you will need to **enable the integration and authenticate with GitHub**. You can then use GitKraken to **define or generate an [SSH key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)** that authenticates git operations on GitHub through GitKraken. Follow [the instructions on the GitKraken site](https://support.gitkraken.com/integrations/github/) to perform both steps.
+
+```{r, echo=FALSE}
+knitr::include_url("https://support.gitkraken.com/integrations/github/")
+```
+
+
