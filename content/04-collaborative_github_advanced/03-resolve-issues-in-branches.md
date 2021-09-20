@@ -122,10 +122,10 @@ Now that tasks have ben assigned through issues, it's **time for team mates to g
 
 Let's **follow an example workflow by one of my team mates**, bobturneruk, who will be tackling the _add a subtract function_ issue I just opened and assigned to him.
 
-{{% notice warning %}}
+{{% notice note %}}
 
 <i class="fas fa-exclamation-circle"></i>
-Open the issue that was assigned to you and follow the instructions within  <i class="fas fa-exclamation-circle"></i>
+**Open** the issue that was **assigned to you** and **follow instructions** within  <i class="fas fa-exclamation-circle"></i>
 
 {{% /notice %}}
 
