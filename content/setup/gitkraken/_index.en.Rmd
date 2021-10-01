@@ -3,7 +3,7 @@ title: Gitkraken
 weight: 5
 ---
 
-### Install GtiKraken
+### Install GitKraken
 
 To install **GitKraken** download the correct binary for your system.
 
@@ -28,3 +28,10 @@ knitr::include_url("https://support.gitkraken.com/integrations/github/")
 ```
 
 
+### Turn off GPG
+
+GPG adds another layer of trust to your commits by [allowing you to digitally signing them](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work). We'll not explore this topic further in this workshop so please **check your preferences and ensure GPG signing is off**.
+
+![](/images/gpg_off.png)
+
+If you want to set GPG signing up in GitKraken, have a look at the documentation on [Commit Signing with GPG](https://support.gitkraken.com/git-workflows-and-extensions/commit-signing-with-gpg/).
