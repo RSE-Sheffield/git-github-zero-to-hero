@@ -29,7 +29,7 @@ The **management of changes** to documents, computer programs, large web sites, 
 
 - Each revision is associated with a **timestamp** and the **person** making the change. 
 
-- A &&new snapshot of a file is recorded** every time a change is made to it.
+- A **new snapshot of a file is recorded** every time a change is made to it.
 
 - Revisions can be **compared, restored**, and with some types of files, **merged**.
 

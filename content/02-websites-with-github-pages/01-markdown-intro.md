@@ -13,7 +13,7 @@ You can use it in readme files, tickets, and even to generate the content of web
 
 _Italic_ text: `_Italic_`
 
-~Strikethrough~ text: `~Strikethrough~`
+~~Strikethrough~~ text: `~~Strikethrough~~`
 
 >Quoted text:
 
@@ -42,6 +42,12 @@ Code blocks
 ```
 Code blocks
 ```
+
+
+    Inline `code`   
+
+Inline `code`
+
 
 ## Lists
 
