@@ -8,7 +8,7 @@ assignees: ''
 
 ---
 
-All instructors (lead and secondary) need to do some preparation (especially to repos in theirs accounts) if they have created materials during a previously run course. Lead instructor has some extra prep steps.
+All instructors (lead and support) need to do some preparation (especially to repos in their own accounts) if they have created materials during a previously run course. Lead instructor has some extra prep steps.
 
 Complete as necessary (dependant in what has been created in the past). Tick off tasks as they are completed or if they are not required.
 
