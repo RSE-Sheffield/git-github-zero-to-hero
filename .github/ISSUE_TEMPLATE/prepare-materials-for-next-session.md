@@ -2,7 +2,7 @@
 name: Prepare materials for next session
 about: Instructions for setting up materials ready for next session. To be completed
   by all instructors (lead and support)
-title: Prepare materials for session on [DATE-OR-SESSION-DESCRIPTION]
+title: Prepare materials for session on [DATE-OR-SESSION-DESCRIPTION] for [INSTRUCTOR-NAME]
 labels: session-setup
 assignees: ''
 
