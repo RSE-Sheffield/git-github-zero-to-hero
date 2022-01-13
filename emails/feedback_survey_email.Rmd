@@ -1,0 +1,35 @@
+---
+title: ""
+author: ""
+date: ""
+output: html_document
+params:
+    prefilled_survey_link: "https://docs.google.com/forms/d/e/1FAIpQLSelm8eDL1GdSHzLwv8hHk0xc8nDewFjR2pk4745jWEebzWThw/viewform?usp=pp_url&entry.1155463189="
+    lead_instructor: "Anna Krystalli"
+    event_date: "2022-01-20"
+---
+
+<!--- Send this email 1 day after event --->
+
+	
+Thank you for attending our **git & GitHub through GitKraken - from Zero to Hero course**. We hope you enjoyed it and found it useful!
+
+We are always looking to improve our course in order to meet our participants' needs so your feedback would be very helpful. We would be grateful if you could take a few minutes to complete our short survey.  
+
+ <br>
+
+## [Complete Course Survey](`r paste0(params$prefilled_survey_link, params$event_date)`)
+
+Thank you for taking the time to provide feedback!
+
+ <br>
+ 
+Please visit https://rse.shef.ac.uk or subscribe to our mailing list for information on future training sessions.
+
+<br> 
+
+##### Dr `r params$lead_instructor`
+
+**Research Software Engineer**
+
+University of Sheffield

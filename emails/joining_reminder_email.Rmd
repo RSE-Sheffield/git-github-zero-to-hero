@@ -1,0 +1,29 @@
+---
+title: ""
+author: ""
+date: ""
+output: html_document
+params:
+    session_joining_link: "https://eu.bbcollab.com/guest/caf855e85fc0489eb8f2b0d0ef5b439a"
+    lead_instructor: "Anna Krystalli"
+---
+
+
+<!--- Send this email the morning of the event --->
+
+We're looking forward to welcoming you to the RSE Sheffield training session on **git & GitHub through GitKraken - from Zero to Hero** shortly!
+ 
+
+To join the session please click the link below:
+ 
+
+# [**JOIN COURSE ROOM**](`r params$session_joining_link`)
+
+See you all soon! 
+ 
+Dr `r params$lead_instructor`
+
+**Research Software Engineer**
+
+University of Sheffield
+ 

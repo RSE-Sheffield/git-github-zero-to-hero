@@ -1,0 +1,36 @@
+---
+title: ""
+author: ""
+date: ""
+output: html_document
+params:
+    lead_instructor: "Anna Krystalli"
+---
+
+<!--- Send this email around 2 weeks prior to event --->
+
+We're looking forward to welcoming you to the RSE Sheffield training session on git & GitHub through GitKraken - from Zero to Hero in about 2 weeks!
+
+**This email is to remind you that if you are unable to attend, to please cancel your booking so we can offer your place to someone else.**
+
+### Attendance to our Courses
+
+We are delighted to be able to make free at point of use training available to the research community, to support better software and more open, reproducible research. Our courses are almost always sold out with a long waiting list. Running courses that are not fully attended is a waste of RSE time and effort and deprives others on the waiting list of a place.
+
+If you sign up for a course, please make sure you either attend or cancel your booking. Bookings can usually be cancelled through [eventbrite.co.uk](https://www.eventbrite.co.uk) or, failing that, by emailing [rse@sheffield.ac.uk](mailto:rse@sheffield.ac.uk).
+
+We also need to make you aware that persistent failure to attend booked courses might result in you being excluded from future training opportunities. 
+
+
+See you all in two weeks time! 
+ 
+Please don’t hesitate to reach out to me with any questions.
+
+<br> 
+
+##### Dr `r params$lead_instructor`
+
+**Research Software Engineer**
+
+University of Sheffield
+ 
