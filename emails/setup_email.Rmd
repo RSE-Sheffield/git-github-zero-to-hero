@@ -32,7 +32,7 @@ If joining an on-line version of the course, we recommend using a two screen set
  
 ### SCHEDULE
  
-We’ll **kick off at `r params$event_start_time` on `r format(strptime(params$event_date, format = "%Y-%m-%d"), "%a %b %d")`** and aim to have a 1 hr **lunch break at `r params$lunch_time`** . We will then break for lunch and return for the **afternoon session at 2pm** which should last around another 2.5 hrs. 
+We’ll **kick off at `r params$event_start_time` on `r format(strptime(params$event_date, format = "%Y-%m-%d"), "%a %b %d %Y")`** and aim to have a 1 hr **lunch break at `r params$lunch_time`** . We will then break for lunch and return for the **afternoon session at `r format(as.POSIXct(paste(params$event_date, params$lunch_time)) + 1*60*60, "%H:%M")`** which should last around another 2.5 hrs. 
 There will be some time at the end of the day for questions and discussions.
 
 ### ATTENDANCE
