@@ -16,3 +16,4 @@ Complete as necessary (dependant in what has been created in the past). Tick off
 - [ ] Delete `collaborative_github_exercise` fork repo **FROM INSTRUCTOR'S ACCOUNT ONLY**. Do NOT delete the RSE-Sheffield original repo.  Delete local copy (of fork!) if you want to use same location for demo. 
 - [ ] [LEAD INSTRUCTOR] Clear previously submitted parameter files from `params/` folder in `RSE-Sheffield/collaborative_github_exercise` repo. DO NOT DELETE `params_tmpl.R`. Synch local and remote repos.
 - [ ] Delete `python-calculator` repo from instructor's account. Delete local copy if you want to use same location for demo.
+- [ ] Clear collaborative team formation [googledoc](https://docs.google.com/document/d/1-CkHO417wtfJZ35X4q5tk_hcgP9W3mfEG5AsN2SIU1A/edit) 
