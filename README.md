@@ -39,6 +39,12 @@ To prepare for each session, materials created during the previous session need 
 
 Similarly, there is a [GitHub Issue template for **Setting up new Lead Instructors**](https://github.com/RSE-Sheffield/git-github-zero-to-hero/issues/new?assignees=&labels=onboarding&template=setup-new-lead-instructor.md&title=Setup+New+Lead+instructor+%5BName+of+Instructor%5D). Complete instructions to ensure new Instructors have all required software and materials downloaded, installed and functional.
 
+### Resources
+
+The `resources` folder contains useful resources for teaching:
+
+- `bb_comms.png`: Screenshot to demonstrate setting your status in blackboard collaborate. Upload to session and use in the introduction to make sure all participants can give feedback using status when asked questions.
+
 ***
 
 
