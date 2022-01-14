@@ -10,6 +10,7 @@ assignees: ''
 Documentation for most setup instructions is available in the course material [**setup**](https://srse-git-github-zero2hero.netlify.app/setup/) chapter.
 
 - [ ] Install git
+- [ ] Install [R](https://www.r-project.org/) & [RStudio](https://www.rstudio.com/)
 - [ ] Create GitHub account
 - [ ] Install GitKraken
 - [ ] Sign-in to GitKraken with GitHub account.
