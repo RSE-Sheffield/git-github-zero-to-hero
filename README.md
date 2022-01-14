@@ -33,7 +33,7 @@ Make sure to send a test message to yourself and to check each link prior to fin
 
 ### Preparing the materials
 
-To prepare for each session, materials created during the previous session need to be cleared or deleted. All steps are detailed in the [**Prepare materials for next session** GitHub Issue template])https://github.com/RSE-Sheffield/git-github-zero-to-hero/issues/new?assignees=&labels=session-setup&template=prepare-materials-for-next-session.md&title=Prepare+materials+for+session+on+%5BDATE-OR-SESSION-DESCRIPTION%5D+for+%5BINSTRUCTOR-NAME%5D). Each instructor (lead and support) should open an individual issue and complete the instructions.
+To prepare for each session, materials created during the previous session need to be cleared or deleted. All steps are detailed in the [**Prepare materials for next session** GitHub Issue template](https://github.com/RSE-Sheffield/git-github-zero-to-hero/issues/new?assignees=&labels=session-setup&template=prepare-materials-for-next-session.md&title=Prepare+materials+for+session+on+%5BDATE-OR-SESSION-DESCRIPTION%5D+for+%5BINSTRUCTOR-NAME%5D). Each instructor (lead and support) should open an individual issue and complete the instructions.
 
 ### Onboarding new instructors
 
