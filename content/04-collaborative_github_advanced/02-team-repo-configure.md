@@ -10,11 +10,11 @@ But first, to complete any work on the repo locally, we first need to download t
 
 ## <i class="fas fa-user-circle"></i> <i class="fas fa-users"></i> Make a local copy of the repository
 
-Open GitKraken and on the left-hand navigation bar, click on {{% button href="" %}} <i class="fas fa-cloud-download-alt"></i> Clone a repo {{% /button %}}
+Open GitKraken Client and on the left-hand navigation bar, click on {{% button href="" %}} <i class="fas fa-cloud-download-alt"></i> Clone a repo {{% /button %}}
 
 {{< figure src="/images/ag-gk-clone.png" >}}
 
-Next, choose **GitHub.com** as the source of the repository. This allows GitKraken to search through any repositories you have access to.
+Next, choose **GitHub.com** as the source of the repository. This allows GitKraken Client to search through any repositories you have access to.
 
  On the next panel, first choose your destination directory (I've chosen my `~/Desktop/`). 
 
@@ -58,7 +58,7 @@ If you hover over the branch indicator, you'll now see there are two branches, a
 
 The `setup.cfg` file in a python package stores metadata about the project. Each owner will now edit that file to add their **author details** as well as complete the **details of the team repository**.
 
-We can edit the file in GitKraken by first navigating to the file in the bottom-right file panel. Once you've double-checked you're in the correct branch, click on {{% button href="" %}} **<i class="fas fa-pencil-alt"></i> Edit this file**{{% /button %}}.
+We can edit the file in GitKraken Client by first navigating to the file in the bottom-right file panel. Once you've double-checked you're in the correct branch, click on {{% button href="" %}} **<i class="fas fa-pencil-alt"></i> Edit this file**{{% /button %}}.
 
 {{< figure src="/images/ag-gk-cfg-edit-init.png" >}}
 
@@ -104,7 +104,7 @@ Once the push is complete, you will notice that there is now an **<i class="fas 
 
 ## <i class="fas fa-user-circle"></i> Make pull request
 
-We can make a pull request from within GitKraken!
+We can make a pull request from within GitKraken Client!
 
 To do so, on the left-hand navigation panel, hover over **PULL REQUESTS** and click on the {{% button href="" %}} **<i class="fas fa-plus-square" style="color:#7CFF7E"></i> Create pull request**{{% /button %}} button when it appears.
 

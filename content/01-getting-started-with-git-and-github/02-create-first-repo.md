@@ -7,7 +7,7 @@ weight: 3
 
 When a local directory becomes **initialised with git**, a **hidden `.git` folder is added** to it. It's now called a **repository**. You can initialise an existing project with git or a start with a completely new project. We'll start by creating a new repository.
 
-- In GitKraken, make sure you're logged in to GitHub.
+- In GitKraken Client, make sure you're logged in to GitHub.
 
 - Create a new repository (`File > Init Repo`)
 
@@ -27,7 +27,7 @@ When a local directory becomes **initialised with git**, a **hidden `.git` folde
 
 	- __Access:__ Public or Private.
 
-	- __Clone after init:__ This checkbox tells GitKraken to clone the resulting GitHub repository. This essentially creates a local copy of the repository at the path you specify next.
+	- __Clone after init:__ This checkbox tells GitKraken Client to clone the resulting GitHub repository. This essentially creates a local copy of the repository at the path you specify next.
 
 	- __Where to clone to:__ Select the folder where the repository will be cloned to. Let's say _D:/GitHub_.
 
@@ -41,7 +41,7 @@ When a local directory becomes **initialised with git**, a **hidden `.git` folde
 
 - Let's have a look at: 
 
-	- the repository's history in GitKraken, 
+	- the repository's history in GitKraken Client, 
 	- our local version of the repository and 
 	- the repository in GitHub.
 

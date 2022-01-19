@@ -4,7 +4,7 @@ weight: 2
 ---
 
 
-Before we start, you might need to **configure your git profile**. You can do this in GitKraken by clinking on the avatar in the top right corner, selecting the profile to edit and clicking on **Edit A Profile**
+Before we start, you might need to **configure your git profile**. You can do this in GitKraken Client by clinking on the avatar in the top right corner, selecting the profile to edit and clicking on **Edit A Profile**
 
 <img src="/images/git-profile-edit.png" alt="title picture" width="700px">
 
@@ -14,4 +14,4 @@ Next complete the details with the **username and email you used to sign up to G
 
 <br>
 
-**Also make sure you are [signed into GitHub through GitKraken](https://support.gitkraken.com/integrations/github/)**
+**Also make sure you are [signed into GitHub through GitKraken Client](https://support.gitkraken.com/integrations/github/)**

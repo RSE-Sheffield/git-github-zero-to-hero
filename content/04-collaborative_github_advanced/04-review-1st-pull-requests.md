@@ -52,11 +52,11 @@ This posts my comments into the PR discussion tab where the author of the PR can
 
 ## <i class="fas fa-users"></i> Correct errors and respond to request for changes
 
-Now my team can go **back to GitKraken** and **make the corrections** to any errors I've flagged 
+Now my team can go **back to GitKraken Client** and **make the corrections** to any errors I've flagged 
 
 {{% notice info %}}
 
-Documentation on  [Editing files in GitKraken](https://support.gitkraken.com/working-with-files/editing-files/)
+Documentation on  [Editing files in GitKraken Client](https://support.gitkraken.com/working-with-files/editing-files/)
 
 {{% /notice %}}
 

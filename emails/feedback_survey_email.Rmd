@@ -12,7 +12,7 @@ params:
 <!--- Send this email 1 day after event --->
 
 	
-Thank you for attending our **git & GitHub through GitKraken - from Zero to Hero course**. We hope you enjoyed it and found it useful!
+Thank you for attending our **git & GitHub through GitKraken Client - from Zero to Hero course**. We hope you enjoyed it and found it useful!
 
 We are always looking to improve our course in order to meet our participants' needs so your feedback would be very helpful. We would be grateful if you could take a few minutes to complete our short survey.  
 

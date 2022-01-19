@@ -1,12 +1,12 @@
 ---
-title: Gitkraken
+title: Gitkraken Client
 weight: 4
 ---
 <img src="/images/gitkraken_logo.png" width="200px">
 
-## What is GitKraken
+## What is GitKraken Client
 
-**GitKraken** (<https://www.gitkraken.com/>) is a powerful and elegant multiplatform **graphical interface for Git** developed as an alternative to working with Git from the command line. 
+**GitKraken Client** (<https://www.gitkraken.com/>) is a powerful and elegant multiplatform **graphical interface for Git** developed as an alternative to working with Git from the command line. 
 
 It can also **interact with GitHub** or any other online repository. 
 
