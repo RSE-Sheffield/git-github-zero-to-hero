@@ -30,7 +30,7 @@ knitr::include_url("https://support.gitkraken.com/integrations/github/")
 
 ### Turn off GPG
 
-GPG adds another layer of trust to your commits by [allowing you to digitally signing them](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work). We'll not explore this topic further in this workshop so please **check your preferences and ensure GPG signing is off**.
+GPG adds another layer of trust to your commits by [allowing you to digitally signing them](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work). We'll not explore this topic further in this workshop so please **check your GPG settings under <kbd>preferences</kbd> and ensure the "Sign Commits by Default" and "Sign Tags by Default" options are unchecked**.
 
 ![](/images/gpg_off.png)
 

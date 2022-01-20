@@ -36,7 +36,7 @@ In the **Clone** panel, select **GitHub.com** from the source panel. The right-s
 <br>
 
 
-When you're done specifying what and where to clone, click on **Clone the repo!**. If everything worked, you should see the following screen:
+When you're done specifying what and where to clone, click on **Clone the repo!**. If everything worked, you should see the following success message appear at the top of the client:
 
 <img src="/images/clone-3-gk.png" width="700px" />
 
