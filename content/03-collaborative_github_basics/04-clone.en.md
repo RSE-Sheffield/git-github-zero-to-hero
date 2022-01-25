@@ -4,7 +4,7 @@ weight: 4
 ---
 
 
-### **Clone a repository using GitKraken** 
+### **Clone a repository using GitKraken Client** 
 
 
 <br>
@@ -14,7 +14,7 @@ weight: 4
 
 <br>
 
-Now that you have a fork in your account, let's clone it (ie download a local copy) through GitKraken.
+Now that you have a fork in your account, let's clone it (ie download a local copy) through GitKraken Client.
 
 To start clonining, go to: `File > Clone Repo`
 
@@ -28,7 +28,7 @@ In the **Clone** panel, select **GitHub.com** from the source panel. The right-s
 
 - __Repository to clone:__ Here you'll see a list of all the repositories you have access to and which you can clone. Choose the repository named _collaborative-github-exercise_.
 
-- __Full path:__ Here GitKraken will show the full path where the repository will be cloned to. This will be _D:/GitHub/collaborative-github-exercise_.
+- __Full path:__ Here GitKraken Client will show the full path where the repository will be cloned to. This will be _D:/GitHub/collaborative-github-exercise_.
 
 
 <img src="/images/clone-2-gk.png" width="700px" />
@@ -36,7 +36,7 @@ In the **Clone** panel, select **GitHub.com** from the source panel. The right-s
 <br>
 
 
-When you're done specifying what and where to clone, click on **Clone the repo!**. If everything worked, you should see the following screen:
+When you're done specifying what and where to clone, click on **Clone the repo!**. If everything worked, you should see the following success message appear at the top of the client:
 
 <img src="/images/clone-3-gk.png" width="700px" />
 

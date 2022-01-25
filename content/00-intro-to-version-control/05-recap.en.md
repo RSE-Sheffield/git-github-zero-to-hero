@@ -3,11 +3,11 @@ title: Version Control Recap
 weight: 5
 ---
 
-## Git, GitHub, & GitKraken
+## Git, GitHub, & GitKraken Client
 
 <br>
 
-> Git, GitKraken, and Github are three separate things. Git is the system used for version control, but you don't have to use it with GitHub or GitKraken.
+> Git, GitKraken Client, and Github are three separate things. Git is the system used for version control, but you don't have to use it with GitHub or GitKraken Client.
 
 <br>
 
@@ -15,6 +15,6 @@ weight: 5
  
 #### - Sharing our work on GitHub allows others to inspect our work, make copies and contribute back changes. 
 
-#### - GitKraken allows you to work with both from a single graphical user interface.
+#### - GitKraken Client allows you to work with both from a single graphical user interface.
 
 

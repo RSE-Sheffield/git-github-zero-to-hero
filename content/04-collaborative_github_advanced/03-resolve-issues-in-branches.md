@@ -159,16 +159,16 @@ The **`subtract` branch has now been created and been checked out** (indicated b
 
 The next step in Bob's instructions is to create a new `subtract.py` file in the `pythoncalculator/` directory and paste the code for the `subtract` function.
 
-A nice feature of GitKraken is that, as well as a basic text editor, it also **allows us to create new files!**
+A nice feature of GitKraken Client is that, as well as a basic text editor, it also **allows us to create new files!**
 
-To create a new file, **first launch GitKraken's fuzzy finder** with 
+To create a new file, **first launch GitKraken Client's Command Palette** with 
 <img src="/images/command-symbol.png" width="2px" style="align:left; display:inline; margin:0;"/> **| Ctrl + P**
 
 Next, type **File**. This launches a dropdown menu of action you can perform on files. Select **Create file**.
 
 {{% notice info %}}
 
-For more information check out the GitKraken documentation on [Adding a file](https://support.gitkraken.com/working-with-files/adding-and-removing/#adding-a-file) and [GitKrake's fuzzy finder](https://support.gitkraken.com/start-here/fuzzy-finder/).
+For more information check out the GitKraken Client documentation on [Adding a file](https://support.gitkraken.com/working-with-files/adding-and-removing/#adding-a-file) and [GitKrake's Command Palette](https://support.gitkraken.com/start-here/command-palette/).
 
 {{% /notice %}}
 
@@ -215,7 +215,7 @@ To open `pythoncalculator/__init__.py`, double click on it in the file finder pa
 
 {{% notice tip %}}
 
-To see all files in the repo, tick the <i class="fas fa-check-square" style="color:#166de0; background-color:blwhiteack; padding:2px"></i> **View all files** box. You can also initiate file editing through GitKraken's fuzzy finder. More info on [editing files](https://support.gitkraken.com/working-with-files/editing-files/).
+To see all files in the repo, tick the <i class="fas fa-check-square" style="color:#166de0; background-color:blwhiteack; padding:2px"></i> **View all files** box. You can also initiate file editing through GitKraken Client's Command Palette. More info on [editing files](https://support.gitkraken.com/working-with-files/editing-files/).
 
 {{% /notice %}}
 
@@ -233,7 +233,7 @@ Once the file is open for editing, **add the import line of code from your issue
 
 The next step in Bob's instructions is to create a new `test_subtract.py` file in the `tests/` directory and paste the code for the `subtract` function test.
 
-To create the new file, **launch GitKraken's fuzzy finder** again with 
+To create the new file, **launch GitKraken Client's Command Palette** again with 
 <img src="/images/command-symbol.png" width="2px" style="align:left; display:inline; margin:0;"/> **| Ctrl + P**
 
 Next, type **File** to launches the file action dropdown menu. Select **Create file** and **type in the path to the new file you want to create**, In Bob's case it's `tests/test_subtract.py` and hit **Enter|Return**.

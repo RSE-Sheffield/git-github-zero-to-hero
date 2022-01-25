@@ -9,7 +9,7 @@ params:
 
 <!--- Send this email around 2 weeks prior to event --->
 
-We're looking forward to welcoming you to the RSE Sheffield training session on git & GitHub through GitKraken - from Zero to Hero in about 2 weeks!
+We're looking forward to welcoming you to the RSE Sheffield training session on git & GitHub through GitKraken Client - from Zero to Hero in about 2 weeks!
 
 **This email is to remind you that if you are unable to attend, to please cancel your booking so we can offer your place to someone else.**
 

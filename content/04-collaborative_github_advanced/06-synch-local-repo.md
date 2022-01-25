@@ -6,7 +6,7 @@ weight = 6
 
 
 
-Now, let's take a minute and go back to GitKraken to inspect what the repo looks like from the ground.
+Now, let's take a minute and go back to GitKraken Client to inspect what the repo looks like from the ground.
 
 Right at the top of the commit graph you should see <i class="fas fa-cloud"></i> **origin `main` ahead of all other branches** and now containing **all the commits made by the entire team**.
 

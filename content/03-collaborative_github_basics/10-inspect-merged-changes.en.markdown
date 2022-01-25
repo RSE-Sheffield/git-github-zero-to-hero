@@ -33,4 +33,4 @@ Once the analysis notebook (parametarised with each participants species) is run
 
 
 
-Last tip: You can actually [make pull requests in GitKraken](https://support.gitkraken.com/working-with-repositories/pull-requests)!
+Last tip: You can actually [make pull requests in GitKraken Client](https://support.gitkraken.com/working-with-repositories/pull-requests)!

@@ -5,7 +5,7 @@ weight: 4
 
 Okay! Now we need to do something with the repository. Let's start with a basic use-case and make a single file that lists some to-do items. The repository is just a normal folder on your computer where you can create and edit files like normal.
 
-- Open the folder (repo) you have just created. In GitKraken, you can do this by going to `File > Open in File Manager`. 
+- Open the folder (repo) you have just created. In GitKraken Client, you can do this by going to `File > Open in File Manager`. 
 
 	<img src="/images/work-1-gk.png" alt="title picture" width="700px">
 
@@ -17,13 +17,13 @@ Okay! Now we need to do something with the repository. Let's start with a basic 
 
 <br>
 
-- Hop over to GitKraken again. You should see the new file you added! 
+- Hop over to GitKraken Client again. You should see the new file you added! 
 
 	<img src="/images/work-3-gk.png" alt="title picture" width="700px">
 
 <br>
 
-- Now it's time to **commit** you work. This is creating a *save point* you can come back to at any time. Aim to do this whenever you've done a small, complete chunk of work. GitKraken provides an easy to use interface for this job:
+- Now it's time to **commit** you work. This is creating a *save point* you can come back to at any time. Aim to do this whenever you've done a small, complete chunk of work. GitKraken Client provides an easy to use interface for this job:
 
     - __Unstaged Files:__ Here you have a view of all the local changes of your repository. You can also see the changes done to each file by just clicking on it. You have the option to **stage** all the changes or some of them. Staging is essentially a commit preparation process.
     
@@ -36,7 +36,7 @@ Okay! Now we need to do something with the repository. Let's start with a basic 
 	<img src="/images/work-4-gk.png" alt="title picture" width="700px">
 <br>
 
-- 	Now that we have commited our changes locally we can **push** them up to the remote repository. This is done by pressing the **Push** button on the top of GitKraken navigation bar.
+- 	Now that we have commited our changes locally we can **push** them up to the remote repository. This is done by pressing the **Push** button on the top of GitKraken Client navigation bar.
 
 	<img src="/images/work-5-gk.png" alt="title picture" width="700px">	
 

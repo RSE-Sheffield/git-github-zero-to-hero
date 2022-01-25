@@ -30,7 +30,7 @@ Now, what if you you make changes directly on the GitHub repository or using ano
 
 <br>
 
-- Now back in GitKraken, we see that our remote repository is ahead of our local. We can also see that it is the local README.md file that is out of date. In order to synchronize the local with the remote repository we can use **Pull**. This will "download" any updates from the remote repository to our local one.
+- Now back in GitKraken Client, we see that our remote repository is ahead of our local. We can also see that it is the local README.md file that is out of date. In order to synchronize the local with the remote repository we can use **Pull**. This will "download" any updates from the remote repository to our local one.
 
 	<img src="/images/work-12-gk.png" alt="title picture" width="700px">
 

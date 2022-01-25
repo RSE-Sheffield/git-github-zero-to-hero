@@ -11,7 +11,7 @@ However your local copy of the repository only contains the template and your ow
 
 > Q: How can I merge changes from the **upstream** repository to my **local** repository?
 
-GitKraken makes it really simple. 
+GitKraken Client makes it really simple. 
 
 
 ### Add the **Upstream** Remote repository

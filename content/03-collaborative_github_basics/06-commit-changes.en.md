@@ -6,9 +6,9 @@ weight: 6
 
 ### Commit changes locally to git
 
-#### In GitKraken, stage the new file you created
+#### In GitKraken Client, stage the new file you created
 
-Moving back to GitKraken you should now see that there is one file containing changes and that it is the new parameters file you just created.
+Moving back to GitKraken Client you should now see that there is one file containing changes and that it is the new parameters file you just created.
 
 To **add (stage) this file to the commit** we are about to make, click on the **Stage File** button next to the name of the file. Please **ONLY STAGE YOUR NEW FILE** (ie if for any reason you've accidentally edited any other file in the repo, please do not stage it).
 
