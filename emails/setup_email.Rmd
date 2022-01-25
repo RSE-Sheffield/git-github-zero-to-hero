@@ -6,11 +6,11 @@ output: html_document
 params:
     event_date: 
         label: "Input dataset:"
-        value: "2022-01-20"
+        value: "2022-02-01"
         input: date
     event_start_time: "10:00"
-    lunch_time: "13:00"
-    session_joining_link: "https://eu.bbcollab.com/guest/caf855e85fc0489eb8f2b0d0ef5b439a"
+    lunch_time: "12:30"
+    session_joining_link: ""
     lead_instructor: "Anna Krystalli"
      
     
@@ -24,15 +24,16 @@ We're looking forward to welcoming you to the RSE Sheffield training session on 
 
 ### SETUP
  
-Prior to attending, you need to **install the software we are going to use and create an account on GitHub**.
+Prior to attending, you need to **install the software we are going to use and create an account on GitHub. <span style="color: #d1410c;">Please ensure you have completed setup before the course begins.</span>**
  
-Instructions on how to create the account as well as install all the software required can be found on the Setup chapter of the course materials: https://srse-git-github-zero2hero.netlify.app/setup/
+Instructions on how to create the account as well as install all the software required can be found on the [**Setup chapter**](https://srse-git-github-zero2hero.netlify.app/setup/) of the course materials.
+If you have any problems with your setup, please get in touch with us for assistance before the course begins.
 
-If joining an on-line version of the course, we recommend using a two screen set up if possible so you can observe the live demonstration on one screen and complete the practical exercises on another.
+If joining an on-line version of the course, we recommend using a two screen set up if possible so you can observe the live demonstration on one screen and perform the practical exercises on another.
  
 ### SCHEDULE
  
-We’ll **kick off at `r params$event_start_time` on `r format(strptime(params$event_date, format = "%Y-%m-%d"), "%a %b %d %Y")`** and aim to have a 1 hr **lunch break at `r params$lunch_time`** . We will then break for lunch and return for the **afternoon session at `r format(as.POSIXct(paste(params$event_date, params$lunch_time)) + 1*60*60, "%H:%M")`** which should last around another 2.5 hrs. 
+We’ll **kick off at `r params$event_start_time` on `r format(strptime(params$event_date, format = "%Y-%m-%d"), "%a %b %d %Y")`** and aim to have a 1 hr **lunch break at `r params$lunch_time`**. We'll return for the **afternoon session at `r format(as.POSIXct(paste(params$event_date, params$lunch_time)) + 1*60*60, "%H:%M")`**  which should last around another 3 hrs. 
 There will be some time at the end of the day for questions and discussions.
 
 ### ATTENDANCE
@@ -46,7 +47,9 @@ We will be using [Blackboard Collaborate](https://www.sheffield.ac.uk/apse/digit
 
 # [**JOIN COURSE ROOM**](`r params$session_joining_link`)
 
+For session security, please do not share the joining link.
 
+<br>
 
 See you next week! 
  

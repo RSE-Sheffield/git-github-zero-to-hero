@@ -4,7 +4,7 @@ author: ""
 date: ""
 output: html_document
 params:
-    session_joining_link: "https://eu.bbcollab.com/guest/caf855e85fc0489eb8f2b0d0ef5b439a"
+    session_joining_link: ""
     lead_instructor: "Anna Krystalli"
 ---
 
