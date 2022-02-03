@@ -115,6 +115,14 @@ The issue is also now listed under the <i class="fas fa-exclamation-circle"></i>
 
 {{< figure src="/images/ag-issue-sub-list.png" >}}
 
+
+{{% notice info %}}
+
+Make sure you have <strong>opened and assigned a unique issue to each member</strong> of your team! 
+
+{{% /notice %}}
+
+
 ## <i class="fas fa-users"></i> Resolve assigned issue
 
 
