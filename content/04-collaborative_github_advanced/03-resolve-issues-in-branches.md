@@ -116,7 +116,7 @@ The issue is also now listed under the <i class="fas fa-exclamation-circle"></i>
 {{< figure src="/images/ag-issue-sub-list.png" >}}
 
 
-{{% notice info %}}
+{{% notice warning %}}
 
 Make sure you have <strong>opened and assigned a unique issue to each member</strong> of your team! 
 
