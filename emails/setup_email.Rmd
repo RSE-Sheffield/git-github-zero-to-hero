@@ -6,7 +6,7 @@ output: html_document
 params:
     event_date: 
         label: "Input dataset:"
-        value: "2022-02-01"
+        value: "2022-03-10"
         input: date
     event_start_time: "10:00"
     lunch_time: "12:30"
@@ -45,7 +45,7 @@ There will be some time at the end of the day for questions and discussions.
 We will be using [Blackboard Collaborate](https://www.sheffield.ac.uk/apse/digital/collaborate/students) to deliver the course. On the day please click the link below to join the course room:
  
 
-# [**JOIN COURSE ROOM**](`r params$session_joining_link`)
+## [**JOIN COURSE ROOM**](`r params$session_joining_link`)
 
 For session security, please do not share the joining link.
 
