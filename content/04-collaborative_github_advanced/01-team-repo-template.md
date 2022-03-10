@@ -133,6 +133,6 @@ Before we move on, **make sure the rest of your team has accepted the invitation
 
 {{% notice tip %}}
 
-You can accept the invitation by visiting **https://github.com/[UserName]/python-calculator/invitations**, substituting `UserName` with your team repository owner's username.
+You can accept the invitation by visiting **https://github.com/[UserName]/python-calculator/invitations**, substituting `[UserName]` with your team repository owner's username.
 
 {{% /notice %}}
