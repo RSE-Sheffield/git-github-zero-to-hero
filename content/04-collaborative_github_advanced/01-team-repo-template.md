@@ -130,3 +130,9 @@ Find out more about [Managing teams and people with access to your repository](h
 Before we move on, **make sure the rest of your team has accepted the invitation to the repository**.
 
 {{< figure src="/images/ag-collaborators-all.png" >}}
+
+{{% notice tip %}}
+
+You can accept the invitation by visiting **https://github.com/[UserName]/python-calculator/invitations**, substituting `[UserName]` with your team repository owner's username.
+
+{{% /notice %}}
