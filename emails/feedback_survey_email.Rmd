@@ -5,8 +5,8 @@ date: ""
 output: html_document
 params:
     prefilled_survey_link: "https://docs.google.com/forms/d/e/1FAIpQLSelm8eDL1GdSHzLwv8hHk0xc8nDewFjR2pk4745jWEebzWThw/viewform?usp=pp_url&entry.1155463189="
-    lead_instructor: "Anna Krystalli"
-    event_date: "2022-03-10"
+    lead_instructor: "David Wilby"
+    event_date: "2022-04-12"
 ---
 
 <!--- Send this email 1 day after event --->
