@@ -5,7 +5,7 @@ date: ""
 output: html_document
 params:
     session_joining_link: ""
-    lead_instructor: "Anna Krystalli"
+    lead_instructor: "David Wilby"
 ---
 
 
