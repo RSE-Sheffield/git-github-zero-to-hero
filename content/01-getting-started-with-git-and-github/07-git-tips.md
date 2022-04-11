@@ -7,8 +7,8 @@ weight: 8
 
 ### 1. commit early, commit often
 ### 2. commit logical bits of work together
-### 3. write meaninful messages
+### 3. write meaningful commit messages
 
 ## Always remember
 
-![](https://optimalbi.com/wp-content/uploads/2018/02/gitsave-300x210.png)
+![](https://assets.website-files.com/6167686a04de0ebe0681d0c4/620193f40010d74e1b1aabfc_gitsave-300x2101.png)
