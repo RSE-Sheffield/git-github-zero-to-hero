@@ -4,6 +4,7 @@
 <!-- badges: start -->
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a663c5ba-6e5c-4420-b8b2-4228f094463a/deploy-status)](https://app.netlify.com/sites/srse-git-github-zero2hero/deploys)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![](https://i.creativecommons.org/l/by/3.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)
 <!-- badges: end -->
 
 This repo contains the source code of the website of the ***Git & Github through GitKraken Client - From Zero to Hero!*** course.
