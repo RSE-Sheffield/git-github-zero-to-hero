@@ -28,13 +28,24 @@ is to...
 
 ### Can you delete changes?
 
-You can but typically you make subsequent commits to revert changes. It is possible to roll back a branch to any stage
-in the history of commits by using `git checkout <hash_id>` but this will mean you are in a "Detached HEAD" state as you
-are not at the `HEAD` of that branch. It is possible to reset which commit `HEAD` points to but it is a destructive
+You can but its complicated and there are many options available which will be contingent on what you want the commit
+history to reflect, although typically most leave the commit history in place and add a new commit documenting the
+changes.
+
+You can `git reset` to roll the `HEAD` back to an earlier point (for more see [How To Use Git
+Reset](https://www.w3docs.com/learn-git/git-reset.html)) or you can `git revert` to undo the changes introduced by a
+specific commit (see [How To Use Git Revert](https://www.w3docs.com/learn-git/git-revert.html)). Other options include
+using `git rm` to remove specific files from being tracked ([How To Use Git
+RM](https://www.w3docs.com/learn-git/git-rm.html)) and `git rebase` to move and combine a series of commits ([How Tow
+Use Git Rebase](https://www.w3docs.com/learn-git/git-rebase.html)).
+
+It is possible to roll back a branch to any stage in the history of commits by using `git checkout <hash_id>` but this
+will mean you are in a [Detached HEAD](https://www.w3docs.com/learn-git/git-checkout.html#detached-heads-27) state as
+you are not at the `HEAD` of that branch. It is possible to reset which commit `HEAD` points to but it is a destructive
 process and can cause a lot of problems and is not therefore recommended.
 
-If you have not committed changes locally and only stage them you can delete changes and then stage and commit
-any changes or corrections.
+If you have not committed changes locally and only staged them you can delete or change anything, it will just unstage
+the modified files and you can then stage and commit them again after making corrections.
 
 ### If I have multiple commits do I need to push them individually?
 
@@ -62,9 +73,13 @@ Management - The University Library - The University of Sheffield](https://www.s
 It depends on your perspective. When you have made changes to a fork and you wish them to be incorporated into the
 original repositories branch then from your point of view you are pushing, just as you do from local to GitHub.
 
-However, from the perspective of the original maintainer they, as recipient, see it as "pulling" your changes into their
+From the perspective of the original maintainer they, as recipient, see it as "pulling" your changes into their
 branch. Given the original is their branch and you are adding to it then the owners perspective takes precedence, hence
 why its a request to "pull" your changes into their repository.
+
+However, it's best not to worry too much about it, a "pull request" is a way of merging a branch into another branch in
+a repository, and an opportunity to have a discussion about it before doing so.
+
 
 ### Can one skip forking, make a copy, and submit a PR?
 
@@ -88,11 +103,13 @@ working on you do have the option to create a branch and pull request for your c
 
 ## GitKraken
 
-### Will the trial period of GitKraken expiring be a problem? / How do I get GitKarken/GitHub pro account?
+### Will the trial period of GitKraken expiring be a problem? / How do I get GitKraken/GitHub pro account?
 
 The 7-day trial period only refers to a short window where you get all of the paid features that are available to try
 out. After this trial period expires you will still be able to use GitKraken and nothing in this course requires the
-paid features.
+paid features, for more information on the different features see [GitKraken Client
+Pricing](https://www.gitkraken.com/git-client/pricing).
+
 
 If you are using a trial version of GitKraken for this course you won't encounter any problems. Longer term though you
 will want to setup a GitHub account using your University email address which allows you to take advantage of their

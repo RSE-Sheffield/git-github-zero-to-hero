@@ -23,7 +23,7 @@ Choosing a subset of changes from other commits, typically on different branches
 
 ### `clone`
 
-Make a copy of a repository from a remote `origin` to your local computer.
+Make a copy of a repository from a remote to your local computer.
 
 ### `commit`
 
@@ -35,9 +35,11 @@ A single point in the Git history or the act of creating such a point in the his
 
 ## F
 
+### `fast-forward`
+
 ### `fetch`
 
-Get the `head` reference from a remote repository of a branch. It does not `pull` the changes.
+Get the [`head`](#head) reference from a remote repository of a branch. It does not [`pull`](#pull) the changes.
 
 
 ### `fork`
@@ -67,7 +69,7 @@ Interface).
 
 ### `hash`
 
-A "hash" is a unique ID generated and associated with each `commit` that allows it to be uniquely identified within a
+A "hash" is a unique ID generated and associated with each [`commit`](#commit) that allows it to be uniquely identified within a
 repository.
 
 
@@ -92,7 +94,7 @@ The name given to the original code branch from which branches are made.
 ### `merge`
 
 Incorporate the contents of another branch into the current branch, typically this creates a new commit showing the
-changes that have occurred unless this is a `fast-forward`.
+changes that have occurred unless this is a [`fast-forward`](#fast-forward).
 
 ## N
 
@@ -107,11 +109,14 @@ GitHub/GitLab.
 
 ### `pull`
 
-Synchronising changes from `branch` on the remote `origin` with the `local` copy, it will `fetch` _and_ `merge`.
+Synchronising changes from [`branch`](#branch) on the remote [`origin`](#origin) with the [`local`](#local) copy, it
+will [`fetch`](#fetch) _and_ [`merge`](#merge).
 
 ### `push`
 
-Synchronising changes made to the `branch` on the `local` computer with those on the remote `origin`.
+Synchronising changes made to the [`branch`](#branch) on the [`local`](#local) computer with those on the remote
+[`origin`](#origin).
+
 
 ### PyCharm
 
@@ -124,7 +129,7 @@ Synchronising changes made to the `branch` on the `local` computer with those on
 
 ### `rebase`
 
-Applies a changes from one `branch` to the current.
+Applies a changes from one [`branch`](#branch) to the current.
 
 ### repository
 
@@ -136,13 +141,15 @@ Applies a changes from one `branch` to the current.
 
 ### `stage` / `staging`
 
-Choose which files to include in a `commit`.
+Choose which files to include in a [`commit`](#commit).
 
 ## T
 
 ## U
 
 ### upstream
+
+The default [`branch`](#branch) that commits are merged into during a pull request.
 
 ## V
 
@@ -159,7 +166,7 @@ GitHub integration.
 
 ### yaml
 
-[yaml](https://yaml.org/) (Yaml Ain't Markup Language) is a superset of JSON and is used for configuration files such as
-those that control GitHub Actions.
+[yaml](https://yaml.org/) (Yaml Ain't Markup Language) is a superset of [JSON](https://www.json.org/json-en.html) and is
+used for configuration files such as those that control GitHub Actions.
 
 ## Z

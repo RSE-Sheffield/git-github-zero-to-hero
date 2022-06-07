@@ -4,7 +4,7 @@ date =  2021-05-13T17:58:07+03:00
 weight = 2
 +++
 
-To demonstrate contributions through branches we'll first start with a small contribution to the python package metadata by the <i class="fas fa-user-circle"></i> owner. 
+To demonstrate contributions through branches we'll first start with a small contribution to the python package metadata by the <i class="fas fa-user-circle"></i> owner.
 
 But first, to complete any work on the repo locally, we first need to download the repo to our computers. So let's go ahead and all do that.
 
@@ -16,9 +16,9 @@ Open GitKraken Client and on the left-hand navigation bar, click on {{% button h
 
 Next, choose **GitHub.com** as the source of the repository. This allows GitKraken Client to search through any repositories you have access to.
 
- On the next panel, first choose your destination directory (I've chosen my `~/Desktop/`). 
+ On the next panel, first choose your destination directory (I've chosen my `~/Desktop/`).
 
-Then, in the **Repository to clone** box, start typing `python-calculator` until the repo associated with  your account appears. Select it and click {{% button href="" %}} Clone the repo! {{% /button %}} 
+Then, in the **Repository to clone** box, start typing `python-calculator` until the repo associated with  your account appears. Select it and click {{% button href="" %}} Clone the repo! {{% /button %}}
 
 {{< figure src="/images/ag-gk-clone-pc.png" >}}
 
@@ -44,7 +44,7 @@ Let us first get the <i class="fas fa-user-circle"></i> owner of each repo to ma
 
 To create a new branch from the `main` branch, first make sure that, in the left-hand navigation panel, the **<i class="fas fa-check-square" style="color:#7CFF7E; background-color:black; padding:2px"></i> <i class="fas fa-code-branch"></i> main** branch in the **<i class="fas fa-laptop"></i> local** repo is checked.
 
-When you're ready, click on the {{% button href="" %}} **Branch** <br> **<i class="fas fa-code-branch"></i>**{{% /button %}} button on the top panel. 
+When you're ready, click on the {{% button href="" %}} **Branch** <br> **<i class="fas fa-code-branch"></i>**{{% /button %}} button on the top panel.
 
 In the new branch text box that appears, enter a name for the new branch, e.g. `edit-metadata`. Press **Return** or **Enter** to create the new branch.
 
@@ -74,7 +74,7 @@ Press <img src="/images/command-symbol.png" width="2px" style="align:left; displ
 {{< figure src="/images/ag-gk-cfg-edit-details.png" >}}
 ## <i class="fas fa-user-circle"></i> Commit changes to `setup.cfg`
 
-The right hand side panel now indicates that you have a single unstanged file (`setup.cfg`) with uncommitted changes.  
+The right hand side panel now indicates that you have a single unstaged file (`setup.cfg`) with uncommitted changes.
 
 Click on the {{% button href="" %}} **Stage file**{{% /button %}} or {{% button href="" %}} **Stage all changes**{{% /button %}} button.
 
@@ -114,15 +114,15 @@ Next configure the **details of the pull request** including the **source and ta
 
 {{< figure src="/images/ag-gk-cfg-pr-details-br.png" >}}
 
-We also need our pull request reviewed before it can be merged. A nice feature of pull requests is than you can **request a review** from a team mate. Let's do this. 
+We also need our pull request reviewed before it can be merged. A nice feature of pull requests is than you can **request a review** from a team mate. Let's do this.
 
-If you scroll down to **Reviewers** you will be able to **select a reviewer from your team mates**. Go ahead and select someone. 
+If you scroll down to **Reviewers** you will be able to **select a reviewer from your team mates**. Go ahead and select someone.
 
 Finally, at the very bottom, click on {{% button href="" %}} **Create Pull Request**{{% /button %}} to submit it.
 
 {{< figure src="/images/ag-gk-cfg-pr-details-rev.png" >}}
 
-You should now see **1** indicated next  to **PULL REQUESTS**. If you click on it to expand you can see your pull request listed and if you hover over it, you can see 
+You should now see **1** indicated next  to **PULL REQUESTS**. If you click on it to expand you can see your pull request listed and if you hover over it, you can see
 more details.
 
 {{< figure src="/images/ag-gk-cfg-pr-cmpl-details.png" >}}
@@ -165,9 +165,9 @@ Once **an approving review has been submitted** (and as long as all checks are p
 
 {{< figure src="/images/ag-cfg-pr-merge-init.png" >}}
 
-Follow through until the PR has been merged! 
+Follow through until the PR has been merged!
 
-To **keep the repo tidy**, as the `edit-metadata` branch is now redundant (i.e. I don't expect any further contributions in this branch regarding the particular feature it was created for), I'm going to go ahead and click **Delete branch**. 
+To **keep the repo tidy**, as the `edit-metadata` branch is now redundant (i.e. I don't expect any further contributions in this branch regarding the particular feature it was created for), I'm going to go ahead and click **Delete branch**.
 
 {{< figure src="/images/ag-cfg-pr-merge-cmpl.png" >}}
 
