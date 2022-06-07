@@ -118,8 +118,8 @@ find instructions on how to do so at [Apply for an educator or researcher discou
 Docs](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-in-your-classroom-and-research/apply-for-an-educator-or-researcher-discount).
 
 Once you connect to this GitHub account through GitKraken you will automatically receive access to the full GitKraken
-Client Stand-Alone through their [GitKraken Resources for Schools](https://education.github.com/schools), which is
-contingent on your account being registered with GitHub Campus Program.
+Client Stand-Alone through their [GitKraken Resources for Schools](https://www.gitkraken.com/github-campus-program),
+which is contingent on your account being registered with GitHub Campus Program.
 
 
 ### Does GitKraken pick up files added directly to the local repository?
