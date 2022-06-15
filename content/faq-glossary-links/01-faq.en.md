@@ -4,7 +4,7 @@ weight: 1
 ---
 
 Some of the commonly asked questions encountered whilst running this course are addressed below, grouped into the main
-topics. If your questions is not answered here please do not hesitate to ask the course leaders or helpers.
+topics. If your question is not answered here please do not hesitate to ask the course leaders or helpers.
 
 ## Git
 
@@ -64,7 +64,7 @@ the others in place locally for inclusion in a later push.
 ### Can/should data be shared on GitHub?
 
 Technically you can, but GitHub isn't really designed for sharing large files. Further there may be data governance
-issues that cover your data. For more information on sharing your data see the [Sharing research data - Research Data
+issues that cover sharing of your data. For more information on sharing your data see the [Sharing research data - Research Data
 Management - The University Library - The University of Sheffield](https://www.sheffield.ac.uk/library/rdm/publish).
 
 
@@ -90,7 +90,7 @@ that branch via a Pull Request. This helps protect the `main` branch from errors
 reviewed. This is what forking is doing, its making a branch from the main repository for you to work on.
 
 Many large code bases have a number of [GitHub Actions](https://github.com/features/actions) that carry out such tasks
-as unit, and integration and regression tests, linting of code to ensure it complies to style guides, building and
+as unit, integration and regression tests, linting of code to ensure it complies to style guides, building and
 releasing packages. This, along with careful code review of Pull Requests, helps ensure that newly submitted code does
 not break software.
 
