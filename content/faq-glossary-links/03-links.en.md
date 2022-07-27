@@ -12,6 +12,8 @@ Links to further resources on Git, GitHub and GitKraken as well as other popular
 * [Oh Shit, Git!?!](https://ohshitgit.com/) / [Dangit, Git!?!](https://dangitgit.com/en)
 * [Git Tutorials and Training | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials)
 * [Introduction of Git For Beginners | W3Docs Git Online Tutorial](https://www.w3docs.com/learn-git/introduction4.html)
+* [GitHub for supporting, reusing, contributing, and failing
+  safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/)
 
 ## GitHub
 

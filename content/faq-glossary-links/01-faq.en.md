@@ -101,6 +101,18 @@ there is no need to choose which files to stage. However, rather than committing
 working on you do have the option to create a branch and pull request for your changes.
 
 
+### Could you explain the implication of LFS please?
+
+LFS is [Git Large File
+Storage](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage),
+generally you should be storing large files such as data on GitHub, there are Data Governance issues that probably
+prevent you from doing so, particularly if you are working with individual patient or survey data. For most of your work
+you should exclude the files by listing their file extensions in `.gitignore` (e.g. to exclude all CSV files add `*.csv`
+to ignore R Data files add `*.RData`).
+
+There are methods of version controlling data such as [Data Version Control](https://dvc.org).
+
+
 ## GitKraken
 
 ### Will the trial period of GitKraken expiring be a problem? / How do I get GitKraken/GitHub pro account?
@@ -126,6 +138,22 @@ which is contingent on your account being registered with GitHub Campus Program.
 
 Yes Git and GitKraken are aware of what files are within the repository, and which files are being tracked and which
 aren't and which files have changed since the last commit.
+
+### The need for GitKraken to modify GitHub accounts seems quite far reaching are you confident this is ok?
+
+Yes it is perfectly fine and is a required for you to interact with GitHub from within GitKraken.
+
+### I have Git Bash installed is this equivalent to Git?
+
+Git Bash is a part of [Git for Windows](https://gitforwindows.org/) and will work fine for you if you wish to work at
+the command line, but GitKraken includes its own version of Git and will work fine.
+
+
+### I received a message about Clone failed due to WSAsetup?
+
+This is likely due to trying to use your own SSH keys with GitKraken. You should instead let GitKraken manage the SSH
+keys. Under _File > Preferences > SSH_ ensure the _Use local SSH agent_ box is ticked. This greys out the other options
+and should resolve the issue.
 
 ## Miscellaneous
 
