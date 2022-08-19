@@ -11,6 +11,11 @@ This repo contains the source code of the website of the ***Git & Github through
 
 ## Prepation for course:
 
+### Schedule events on Eventbrite
+
+The first step is to schedule events on Eventbrite. All steps are detailed in the [**Scheduling courses with
+Eventbrite** GitHub Issue template]().
+
 ### Scheduling  emails
 
 More than 2 weeks prior to each session, a few emails need to be scheduled and the blackboard session created. All steps are detailed in the [**Schedule emails for next session** GitHub Issue template](https://github.com/RSE-Sheffield/git-github-zero-to-hero/issues/new?assignees=&labels=session-setup&template=schedule-emails-for-next-session.md&title=Schedule+emails+for+session+on+%5BDATE-OR-SESSION-DESCRIPTION%5D+for+%5BINSTRUCTOR-NAME%5D). One issue should be opened per session and the tasks completed.
