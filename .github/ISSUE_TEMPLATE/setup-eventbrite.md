@@ -13,6 +13,11 @@ Sheffield](https://www.eventbrite.co.uk/o/rse-sheffield-29660305889) organisatio
 an administrator for this you should request to be included by another team member (see [RSES
 Handbook](https://github.com/RSE-Sheffield/rses-handbook/blob/master/pages/eventbrite.Rmd) for further details).
 
+**NB** - The easiest approach is to copy an existing event. From the page listing events select **Past** and click on
+the three dots to the right of a past event and select `Copy Event`. Edit the title to remove `Copy of` and update the
+dates and times.
+
+
 ## Basic Info
 
 The following fields should be entered into each field on the **Basic Info** page.
@@ -26,22 +31,23 @@ The following fields should be entered into each field on the **Basic Info** pag
 | Tags                | git, github, gitkraken                                    |
 | Location            | Online Event (unless otherwise)                           |
 | Date and Time       | Single Event if running over one day, otherwise Recurring |
-| Event Starts        | Start Date/Time (if Single Event), start is usually 09:30 |
-| Event Ends          | End Date/Time (if Single Event), finish is usually 16:30  |
+| Event Starts        | Start Date/Time (always Single Event), start is usually 09:30 |
+| Event Ends          | End Date/Time if one day finish is usually 16:30, if two 13:00 the following day.  |
 | Time Zone           | United Kingdom Time                                       |
 | Event Page Language | English (UK)                                              |
 
 
+
 ## Schedule
 
-If the course is split over two days then having selected **Recurring** in the Basic Info then you are now presented
-with a calendar to add the dates on which the events will occur. Typically sessions split over two days start at 09:30
-and finish at 13:00. Schedule a single event on each day to end after 1 event.
-
+If the course is split over two days then you should still have selected **Single Event** as selecting repeating events
+results in people being able to register for individual sessions rather than signing up once for both. This is a current
+short-coming of Eventbrite.
 
 ## Details
 
-A banner can be added to the event, some sample images are under the `resources/` directory of this repository.
+A banner can be added to the event, some sample images are under the `resources/` directory of this repository, but if
+you have copied a past event this will already be in place.
 
 The following fields should be entered into each field on the **Details** page (they can be copy and pasted from a past event).
 
@@ -87,7 +93,8 @@ The following fields should be entered into each field on the **Details** page (
 
 ## Online Event Page
 
-We do not use this section as events are setup via Blackboard.
+We do not use this section as events are setup via Blackboard. You should click on **Page Settings** and toggle the
+**Atendee Event Page** to disable.
 
 ## Tickets
 
@@ -100,6 +107,7 @@ Set the following fields under the **Tickets** section
 | Available Quantity        | 20                         |
 | Ticket Sales End          | 1 Hour Before Event Starts |
 | Description               | Not Required               |
+| Visibility                | Visible                    |
 | Tickets Per Order Minimum | 1                          |
 | Tickets Per Order Maximum | 1                          |
 | Sales Channel             | Online Only                |
