@@ -11,6 +11,11 @@ This repo contains the source code of the website of the ***Git & Github through
 
 ## Prepation for course:
 
+### Schedule events on Eventbrite
+
+The first step is to schedule events on Eventbrite. All steps are detailed in the [**Scheduling courses with
+Eventbrite** GitHub Issue template]().
+
 ### Scheduling  emails
 
 More than 2 weeks prior to each session, a few emails need to be scheduled and the blackboard session created. All steps
