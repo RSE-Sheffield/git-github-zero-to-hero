@@ -101,6 +101,11 @@ there is no need to choose which files to stage. However, rather than committing
 working on you do have the option to create a branch and pull request for your changes.
 
 
+### How do I see all the repositories on which I am a collaborator?
+
+Rather weirdly, to see which repositories you have access to, if you're logged in to GitHub and go to <https://github.com/settings/repositories> you'll see a list of every repo you are included as a collaborator on.
+
+
 ### Could you explain the implication of LFS please?
 
 LFS is [Git Large File
