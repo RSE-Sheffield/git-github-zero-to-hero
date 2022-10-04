@@ -2,7 +2,11 @@ github.com/dzello/reveal-hugo v0.0.0-20200513004858-ff9f389743ae h1:x2cMxkgkOshG
 github.com/dzello/reveal-hugo v0.0.0-20200513004858-ff9f389743ae/go.mod h1:0S5eDEdHBx8tSj8veo9lUnuJRXa8WqmpANd0Lz7CLc8=
 github.com/dzello/reveal-hugo v0.0.0-20210413081415-39511a646b9c h1:MqLk4B4fKbRMECHQAMY0S5RFovEtjXS9TTMLsB/NWJU=
 github.com/dzello/reveal-hugo v0.0.0-20210413081415-39511a646b9c/go.mod h1:0S5eDEdHBx8tSj8veo9lUnuJRXa8WqmpANd0Lz7CLc8=
+github.com/dzello/reveal-hugo v0.0.0-20220710134748-1c7822db0cf2 h1:8HLH/Bt9+oK+/hu/HxPUlyMbo3WUUxrDkM2aw7IzBXg=
+github.com/dzello/reveal-hugo v0.0.0-20220710134748-1c7822db0cf2/go.mod h1:0S5eDEdHBx8tSj8veo9lUnuJRXa8WqmpANd0Lz7CLc8=
 github.com/matcornic/hugo-theme-learn v0.0.0-20200911135725-023fe7ef2b4c h1:wuILQJPvX0BYvxuvktvToxtOxAcELdnPS0ppKJ4f9Dw=
 github.com/matcornic/hugo-theme-learn v0.0.0-20200911135725-023fe7ef2b4c/go.mod h1:YoToDcvQxmAFhpEuapKUysBDEBckqDEssqTrmeZ2+uY=
 github.com/matcornic/hugo-theme-learn v0.0.0-20210331234833-d198cbe65f06 h1:Vxgl1/dyKpZDstVWmxNL9BauEGxLXrcbe1T09/dEzTY=
 github.com/matcornic/hugo-theme-learn v0.0.0-20210331234833-d198cbe65f06/go.mod h1:YoToDcvQxmAFhpEuapKUysBDEBckqDEssqTrmeZ2+uY=
+github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d h1:p7ktiW/GnHccjB9oO5YGY7us5v/oHmkyF0C7EDZFM3s=
+github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d/go.mod h1:YoToDcvQxmAFhpEuapKUysBDEBckqDEssqTrmeZ2+uY=

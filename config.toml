@@ -56,7 +56,8 @@ weight = 40
   disableBreadcrumb = false
   disableNextPrev = false
   themeVariant = "rse-learn"
-
+  disableMermaid = false
+  customMermaidURL = "https://unpkg.com/mermaid@9.1.7/dist/mermaid.min.js"
 
 
 [markup]
