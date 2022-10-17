@@ -23,27 +23,33 @@ We're looking forward to welcoming you to the RSE Sheffield training session on 
 
 
 ### SETUP
- 
-Prior to attending, you need to **install the software we are going to use and create an account on GitHub. <span style="color: #d1410c;">Please ensure you have completed setup before the course begins.</span>**
- 
-Instructions on how to create the account as well as install all the software required can be found on the [**Setup chapter**](https://srse-git-github-zero2hero.netlify.app/setup/) of the course materials.
-If you have any problems with your setup, please get in touch with us for assistance before the course begins.
 
-If joining an on-line version of the course, we recommend using a two screen set up if possible so you can observe the live demonstration on one screen and perform the practical exercises on another.
- 
+Prior to attending, you need to **install the software we are going to use and create an account on GitHub. <span
+style="color: #d1410c;">Please ensure you have completed setup before the course begins.</span>**
+
+Instructions on how to create the account as well as install all the software required can be found on the [**Setup
+chapter**](https://srse-git-github-zero2hero.netlify.app/setup/) of the course materials. If you have any problems with
+your setup, please get in touch with us for assistance *before* the course begins. To ensure you have the advantages of
+a [GitHub Educational account](https://education.github.com/discount_requests/student_application) and GitKraken Pro for
+free please see the [tip](https://srse-git-github-zero2hero.netlify.app/setup/github/) about using your academic email address.
+
+
+If joining an on-line version of the course, we recommend using a two screen set up if possible so you can observe the
+live demonstration on one screen and perform the practical exercises on another.
+
 ### SCHEDULE
- 
-We’ll **kick off at `r params$event_start_time` on `r format(strptime(params$event_date, format = "%Y-%m-%d"), "%a %b %d %Y")`** and aim to have a 1 hr **lunch break at `r params$lunch_time`**. We'll return for the **afternoon session at `r format(as.POSIXct(paste(params$event_date, params$lunch_time)) + 1*60*60, "%H:%M")`**  which should last around another 3 hrs. 
+
+We’ll **kick off at `r params$event_start_time` on `r format(strptime(params$event_date, format = "%Y-%m-%d"), "%a %b %d %Y")`** and aim to have a 1 hr **lunch break at `r params$lunch_time`**. We'll return for the **afternoon session at `r format(as.POSIXct(paste(params$event_date, params$lunch_time)) + 1*60*60, "%H:%M")`**  which should last around another 3 hrs.
 There will be some time at the end of the day for questions and discussions.
 
 ### ATTENDANCE
 
 **In the event that you can no longer make it, we please ask that you cancel your ticket so we can offer it to someone on the waiting list**.
- 
+
 ### COURSE DELIVERY PLATFORM
- 
+
 We will be using [Blackboard Collaborate](https://www.sheffield.ac.uk/apse/digital/collaborate/students) to deliver the course. On the day please click the link below to join the course room:
- 
+
 
 ## [**JOIN COURSE ROOM**](`r params$session_joining_link`)
 

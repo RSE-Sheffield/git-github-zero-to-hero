@@ -8,19 +8,25 @@ assignees: ''
 
 ---
 
-Emails need to be scheduled via eventbrite ahead of each session.
+Emails need to be scheduled via Eventbrite ahead of each session.
 
 
 ### Emails
-There are up to 4 emails that need to be scheduled for this course. There are parameterised `.Rmd` templates in the `emails/` directory to generate the contents of these emails.
 
-- **2 weeks prior to the event - `attendance_reminder_email.Rmd`:** an attendance reminder to encourage participants who cannot attend anymore to cancel
-- **1 week prior to the event - `setup_email.Rmd` / `setup_email_two_day.Rmd`:** a reminder of the setup instructors as
-  well as information about the session platform and joining link, which to use depends on whether the course is running
-  on one or two days.
-- **On the morning of the event - `joining_reminder_email.Rmd:`** A reminder of the joining link
-- **Day after the event - `feedback_survey_email.Rmd`** a request to complete a survey.
-The parameters required are:
+There are up to 5 emails that need to be scheduled for this course. There are parameterised `.Rmd` templates in the
+`emails/` directory which should be used to generate the contents of these emails in HTML for copy and pasting into
+Eventbrite.
+
+
+| Schedule        | File                            | Description                                                                                                               |
+|:----------------|:--------------------------------|:--------------------------------------------------------------------------------------------------------------------------|
+| 2 week reminder | `attendance_reminder_email.Rmd` | An attendance reminder to encourage participants who cannot attend anymore to cancel.                                     |
+| 1 Week Reminder | `setup_email.Rmd` / `setup_email_two_day.Rmd` | A reminder of the setup instructions as well as information about the session platform and joining link (use appropriately to how course is being run). |
+| 4 Day Reminder  | `setup_email.Rmd` / `setup_email_two_day.Rmd` | A reminder of the setup instructions as well as information about the session platform and joining link (use appropriately to how course is being run). |
+| On the Morning  | `joining_reminder_email.Rmd`    | A reminder of the joining link.                                                                                           |
+| Day After       | `feedback_survey_email.Rmd`     | A request to complete a survey.                                                                                           |
+
+Not all templates require all parameters but across all four email templates the parameters required are:
 
 - `lead_instructor`: name of the lead instructor
 - `session_joining_link`: link to the blackboard collaborate room (if teaching on-line)
@@ -29,7 +35,24 @@ The parameters required are:
 - `lunch_time`: defaults to "13:00"
 - `prefilled_survey_link`: the unchanging part of the survey link containing the identifier of the date of course question to be pre-populated with the `event_date` parameter.
 
-To use these, open each `.Rmd`, edit parameters in the YAML header and knit to render to html. The html content should then be copied (from the viewer or the generated HTML document) and pasted into the eventbrite message content box.
+#### Knitting & Sending
+
+To use these, open each `.Rmd`, edit parameters in the YAML header under `params` and knit to render to html. If you do this in
+[RStudio](https://rstrudio.com) then you can select the "_Knit on Save_" option. Alternatively you can knit the document
+with the following, assuming your currently located in the root of the repository directory and wish to knit the `attendance_reminder_email.Rmd`.
+
+``` R
+rmarkdown::render("emails/<email-to-be-knitted>.Rmd")
+```
+
+You can run this at the command line without starting an R session using the `-e` flag.
+
+``` bash
+R -e "rmarkdown::render('emails/<email-to-be-knitted>.Rmd')"
+```
+
+The html content should then be copied (from the viewer or the generated HTML document) and pasted into the Eventbrite
+message content box.
 
 Make sure to send a test message to yourself and to check each link prior to finalising the email.
 
@@ -50,9 +73,10 @@ Make sure to send a test message to yourself and to check each link prior to fin
 Complete as necessary (dependent on what has been created in the past).
 
 **Tick off tasks as they are completed or if they are not required.**
-- [ ] attendance reminder email
+- [ ] attendance reminder email (2 weeks prior)
 - [ ] set up blackboard session
-- [ ] setup email (appropriate for one or two day course)
+- [ ] setup email appropriate for one or two day course (1 week prior)
+- [ ] setup email appropriate for one or two day course (4 days prior)
 - [ ] joining email
 - [ ] feedback email
 
