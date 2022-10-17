@@ -12,12 +12,14 @@ Emails need to be scheduled via eventbrite ahead of each session.
 
 
 ### Emails
-There are up to 4 emails that need to be scheduled for this course. There are parameterised `.Rmd` templates in the `emails/` directory to generate the contents of these emails. 
+There are up to 4 emails that need to be scheduled for this course. There are parameterised `.Rmd` templates in the `emails/` directory to generate the contents of these emails.
 
 - **2 weeks prior to the event - `attendance_reminder_email.Rmd`:** an attendance reminder to encourage participants who cannot attend anymore to cancel
-- **1 week prior to the event - `setup_email.Rmd`:** a reminder of the setup instructors as well as information about the session platform and joining link
+- **1 week prior to the event - `setup_email.Rmd` / `setup_email_two_day.Rmd`:** a reminder of the setup instructors as
+  well as information about the session platform and joining link, which to use depends on whether the course is running
+  on one or two days.
 - **On the morning of the event - `joining_reminder_email.Rmd:`** A reminder of the joining link
-- **Day after the event - `feedback_survey_email.Rmd`** a request to complete a survey. 
+- **Day after the event - `feedback_survey_email.Rmd`** a request to complete a survey.
 The parameters required are:
 
 - `lead_instructor`: name of the lead instructor
@@ -50,7 +52,7 @@ Complete as necessary (dependent on what has been created in the past).
 **Tick off tasks as they are completed or if they are not required.**
 - [ ] attendance reminder email
 - [ ] set up blackboard session
-- [ ] setup email
+- [ ] setup email (appropriate for one or two day course)
 - [ ] joining email
 - [ ] feedback email
 
