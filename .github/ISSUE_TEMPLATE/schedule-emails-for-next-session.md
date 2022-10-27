@@ -12,6 +12,7 @@ Emails need to be scheduled via Eventbrite ahead of each session.
 
 
 ### Emails
+
 There are up to 5 emails that need to be scheduled for this course. There are parameterised `.Rmd` templates in the
 `emails/` directory which should be used to generate the contents of these emails in HTML for copy and pasting into
 Eventbrite.
@@ -20,8 +21,8 @@ Eventbrite.
 | Schedule        | File                            | Description                                                                                                               |
 |:----------------|:--------------------------------|:--------------------------------------------------------------------------------------------------------------------------|
 | 2 week reminder | `attendance_reminder_email.Rmd` | An attendance reminder to encourage participants who cannot attend anymore to cancel.                                     |
-| 1 Week Reminder | `setup_email.Rmd`               | A reminder of the setup instructions as well as information about the session platform and joining link (see below for ). |
-| 4 Day Reminder  | `setup_email.Rmd`               | A reminder of the setup instructions as well as information about the session platform and joining link (see below for ). |
+| 1 Week Reminder | `setup_email.Rmd` / `setup_email_two_day.Rmd` | A reminder of the setup instructions as well as information about the session platform and joining link (use appropriately to how course is being run). |
+| 4 Day Reminder  | `setup_email.Rmd` / `setup_email_two_day.Rmd` | A reminder of the setup instructions as well as information about the session platform and joining link (use appropriately to how course is being run). |
 | On the Morning  | `joining_reminder_email.Rmd`    | A reminder of the joining link.                                                                                           |
 | Day After       | `feedback_survey_email.Rmd`     | A request to complete a survey.                                                                                           |
 
@@ -74,8 +75,8 @@ Complete as necessary (dependent on what has been created in the past).
 **Tick off tasks as they are completed or if they are not required.**
 - [ ] attendance reminder email (2 weeks prior)
 - [ ] set up blackboard session
-- [ ] setup email (1 week prior)
-- [ ] setup email (3 days prior)
+- [ ] setup email appropriate for one or two day course (1 week prior)
+- [ ] setup email appropriate for one or two day course (4 days prior)
 - [ ] joining email
 - [ ] feedback email
 
