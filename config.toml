@@ -34,19 +34,24 @@ url = "https://github.com/RSE-Sheffield/git-github-zero-to-hero"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> Online Learning Platforms"
+url = "/platforms"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
 name = "<i class='far fa-fw fa-copy'></i> Snippets"
 url = "/snippets"
-weight = 20
+weight = 30
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
 url = "/credits"
-weight = 30
+weight = 40
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fa fa-certificate'></i> CC-BY Licence"
 url = "https://creativecommons.org/licenses/by/4.0/"
-weight = 40
+weight = 50
 
 [params]
   editURL = "https://github.com/RSE-Sheffield/git-github-zero-to-hero/edit/master/content/"
