@@ -78,17 +78,38 @@ most recent available installer labelled "snow-leopard"
 
 
 #### Linux
-<p>
-If Git is not already available on your machine you can try to
-install it via your distro's package manager. For Debian/Ubuntu run
-<code>sudo apt-get install git</code> and for Fedora run
-<code>sudo yum install git</code>.
-</p>
 
+If Git is not already available on your machine you can try to install it via your distro's package manager.
+
+##### Debian/Ubuntu
+
+``` bash
+sudo apt-get install git
+```
+
+##### Fedora
+
+``` bash
+sudo yum install git
+```
+
+##### Arch
+
+``` bash
+sudo pacman -Syu git
+```
+
+##### Gentoo
+
+``` bash
+sudo emerge -av git
+```
+
+
+### R
 
 During the collaborative exercise, we will collate materials from each participant which will feed into an R analysis. If you would like to run this analysis yourself locally, you will need to have **R** and **Rstudio** installed. This however is optional and not a requirement for you to complete the workshop.
 
-### R
 R can be downloaded [here](https://cran.r-project.org/mirrors.html).
 
 ### RStudio
