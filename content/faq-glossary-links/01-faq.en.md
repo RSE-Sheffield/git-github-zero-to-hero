@@ -168,3 +168,19 @@ No, the focus of this course is using GitKraken to interact with Git and GitHub,
 manual](https:git-csm.com/docs/user-manual.html) contains all the equivalent command line options.  There is `man git`
 as well and each command has its own help page accessible with `git pull --help`, `git checkout --help` (generally its
 `git <command> --help`). There are also a number of additional resources in the Links section below.
+
+### How do I create .txt files on my windows or mac operating system?
+
+#### Windows
+1. Open file explorer
+2. Navigate to the folder you would like to create your .txt file
+3. Ensure file extension is visible. On the toolbar at the top, select **view** > **show** > **file name extensions**. If there is already a tick next to it, then this step is already done.
+4. Right click, select new, find **text document** on the list and select.
+5. Name the file including giving it the file extension '.txt' . This file can be turned into a python file by simply adding the .py file extension.
+
+#### Mac
+1. Open Finder
+2. Navigate to the folder you would like to create your .txt file
+3. Ensure file extension is visible. Go to **Finder** > **Settings** > **Advanced** > select **Show all filename extensions**.
+4. Right click, select new, find **text document** on the list and select.
+5. Name the file including giving it the file extension '.txt' . This file can be turned into a python file by simply adding the .py file extension.
