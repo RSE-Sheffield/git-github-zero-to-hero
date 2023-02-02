@@ -5,3 +5,7 @@ node_modules
 public
 .DS_Store
 emails/*.html
+
+# Emacs related files
+\#*
+*~
