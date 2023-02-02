@@ -6,6 +6,7 @@ pygmentsUseClasses=true
 enableEmoji = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "index\\.html", '\.knit\.md$', '\.utf8\.md$']
 
+
 [module]
   [[module.imports]]
     path = "github.com/matcornic/hugo-theme-learn"
@@ -16,7 +17,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "index\\.html",
 baseName = "index"
 mediaType = "text/html"
 isHTML = true
-    
+
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
@@ -33,19 +34,24 @@ url = "https://github.com/RSE-Sheffield/git-github-zero-to-hero"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> Online Learning Platforms"
+url = "/platforms"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
 name = "<i class='far fa-fw fa-copy'></i> Snippets"
 url = "/snippets"
-weight = 20
+weight = 30
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
 url = "/credits"
-weight = 30
+weight = 40
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fa fa-certificate'></i> CC-BY Licence"
 url = "https://creativecommons.org/licenses/by/4.0/"
-weight = 40
+weight = 50
 
 [params]
   editURL = "https://github.com/RSE-Sheffield/git-github-zero-to-hero/edit/master/content/"
@@ -62,7 +68,7 @@ weight = 40
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-      
+
 [params.reveal_hugo]
  theme = "white"
  load_default_plugins = false

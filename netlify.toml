@@ -6,13 +6,12 @@ command = "hugo -d public"
   HUGO_VERSION = "0.73.0"
   GO_VERSION="1.12"
 
+[context.deploy-preview]
+command = "hugo --gc -b $DEPLOY_PRIME_URL"
+
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.73.0"
   GO_VERSION="1.12"
-  
 
 [context.branch-deploy]
-command = "hugo --gc -b $DEPLOY_PRIME_URL"
-
-[context.deploy-preview]
 command = "hugo --gc -b $DEPLOY_PRIME_URL"

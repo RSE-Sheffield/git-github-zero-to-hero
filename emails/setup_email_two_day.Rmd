@@ -4,16 +4,22 @@ author: ""
 date: ""
 output: html_document
 params:
-    event_date: 
-        label: "Input dataset:"
-        value: "2022-04-12"
+    day1:
+        label: "Input dataset1:"
+        value: "2022-10-31"
         input: date
-    event_start_time: "10:00"
-    lunch_time: "12:30"
+    day2:
+        label: "Input dataset2:"
+        value: "2022-11-01"
+        input: date
+    event_start_time_day1: "09:30"
+    event_end_time_day1: "13:00"
+    event_start_time_day2: "09:30"
+    event_end_time_day2: "13:00"
     session_joining_link: ""
-    lead_instructor: "David Wilby"
-     
-    
+    lead_instructor: "Neil Shephard"
+
+
 ---
 
 
@@ -39,8 +45,12 @@ live demonstration on one screen and perform the practical exercises on another.
 
 ### SCHEDULE
 
-We’ll **kick off at `r params$event_start_time` on `r format(strptime(params$event_date, format = "%Y-%m-%d"), "%a %b %d %Y")`** and aim to have a 1 hr **lunch break at `r params$lunch_time`**. We'll return for the **afternoon session at `r format(as.POSIXct(paste(params$event_date, params$lunch_time)) + 1*60*60, "%H:%M")`**  which should last around another 3 hrs.
-There will be some time at the end of the day for questions and discussions.
+We’ll **kick off at `r params$event_start_time_day1` on `r format(strptime(params$day1, format = "%Y-%m-%d"), "%a %b %d
+%Y")`** and aim to have a few breaks throughout the morning, finishing at `r params$event_end_time_day1`. The second
+session will follow **at `r params$event_start_time_day2` on `r format(strptime(params$day2, format = "%Y-%m-%d"), "%a %b %d
+%Y")`** and follow the same format.
+
+There will be some time at the end of each day for questions and discussions.
 
 ### ATTENDANCE
 
@@ -57,15 +67,14 @@ For session security, please do not share the joining link.
 
 <br>
 
-See you next week! 
- 
+See you next week!
+
 Please don’t hesitate to reach out to me with any questions.
 
-<br> 
+<br>
 
 ##### Dr `r params$lead_instructor`
 
 **Research Software Engineer**
 
 University of Sheffield
- 
