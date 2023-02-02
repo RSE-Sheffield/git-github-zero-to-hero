@@ -13,12 +13,12 @@ knitr::include_url("https://gitkraken.com/download")
 ```
 
 
-Then follow the [installation instructions](https://support.gitkraken.com/how-to-install/) provided on their website. 
+Then follow the [installation instructions](https://support.gitkraken.com/how-to-install/) provided on their website.
 
-{{% notice note %}} 
+{{% notice note %}}
 _In the installation instructions you'll see that you do not actually need to install **Git** separately to use
 GitKraken Client as it ships it's own Git framework, NodeGit, which is primarily developed and maintained by members of
-the GitKraken development team.
+the GitKraken development team._
 
 
 {{% /notice %}}
