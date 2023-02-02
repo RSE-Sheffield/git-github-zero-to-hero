@@ -8,21 +8,24 @@ menuTitle: Setup
 
 # Software Requirements
 
-This workshop assumes you have **Git** and **GitKraken Client** installed on your computer and a personal **GitHub** account.
+This workshop assumes you have **GitKraken Client** installed on your computer and a personal **GitHub** account.
 
-**Git** is a version control system that lets you track who made changes to what when and has options for easily updating a **shared or public version of your code on** [**GitHub** (i.e. github.com)](https://github.com/). To work on GitHub You will need a [supported](https://help.github.com/articles/supported-browsers/) web browser (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above).
+
+[***GitHub** (i.e. github.com)](https://github.com/). To work on GitHub you will need a [supported](https://help.github.com/articles/supported-browsers/) web browser (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above).
 
 **GitKraken Client** is a powerful and elegant multiplatform graphical interface for Git developed as an alternative to working with Git from the command line.
+
+**Git** is a version control system that lets you track who made changes to what when and has options for easily
+updating a **shared or public version of your code on**. You do **not** have to explicitly install Git in order to
+participate in this course because **GitKraken** includes it. If however you wish to use Git outside of GitKraken there
+are instructions on how to do so.
 
 <br>
 
 # Setup Instructions
 
-{{% notice note %}} 
+{{% notice note %}}
 
-Please complete the software installation and setup instructions that follow prior to joining the workshop 
+Please complete the software installation and setup instructions that follow prior to joining the workshop
 
 {{% /notice %}}
-
-
-
