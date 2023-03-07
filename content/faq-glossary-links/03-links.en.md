@@ -46,3 +46,7 @@ There are a host of different Integrated Development Environments (IDEs) availab
 
 * [RStudio](https://www.rstudio.com/products/rstudio/download/)
 * [Happy Git and GitHub for the useR](https://happygitwithr.com/index.html)
+
+### VSCode
+
+* [Source Control with Git in Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
