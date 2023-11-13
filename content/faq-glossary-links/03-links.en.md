@@ -14,6 +14,9 @@ Links to further resources on Git, GitHub and GitKraken as well as other popular
 * [Introduction of Git For Beginners | W3Docs Git Online Tutorial](https://www.w3docs.com/learn-git/introduction4.html)
 * [GitHub for supporting, reusing, contributing, and failing
   safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/)
+* [pre-commit : Protecting your future self](https://rse.shef.ac.uk/blog/pre-commit/) - useful hooks for automating processes.
+* [Who's to Blame?](https://rse.shef.ac.uk/blog/git-blame/) - short article on Git Blame
+* [myrepos](https://myrepos.branchable.com/) - useful programme managing multiple repositories
 
 ## GitHub
 
