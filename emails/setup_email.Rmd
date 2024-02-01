@@ -4,7 +4,7 @@ author: ""
 date: ""
 output: html_document
 params:
-    event_date: 
+    event_date:
         label: "Input dataset:"
         value: "2022-04-12"
         input: date
@@ -63,7 +63,7 @@ Please don’t hesitate to reach out to me with any questions.
 
 <br> 
 
-##### Dr `r params$lead_instructor`
+##### `r params$lead_instructor`
 
 **Research Software Engineer**
 

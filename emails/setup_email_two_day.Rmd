@@ -6,11 +6,11 @@ output: html_document
 params:
     day1:
         label: "Input dataset1:"
-        value: "2022-10-31"
+        value: "2024-02-05"
         input: date
     day2:
         label: "Input dataset2:"
-        value: "2022-11-01"
+        value: "2024-02-06"
         input: date
     event_start_time_day1: "09:30"
     event_end_time_day1: "13:00"
@@ -73,7 +73,7 @@ Please don’t hesitate to reach out to me with any questions.
 
 <br>
 
-##### Dr `r params$lead_instructor`
+##### `r params$lead_instructor`
 
 **Research Software Engineer**
 
