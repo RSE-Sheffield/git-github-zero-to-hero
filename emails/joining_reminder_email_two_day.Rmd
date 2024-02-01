@@ -26,7 +26,7 @@ params:
 We're looking forward to welcoming you to the RSE Sheffield training session on **git & GitHub through GitKraken
  Client - from Zero to Hero** shortly!
 
-Todays session
+Today's session
 (`r format(strptime(params$day1, format = "%Y-%m-%d"), "%a %b %d %Y")`) starts at **`r params$start_time_day1`** in
 **`r params$venue_day1`**. Tomorrow session (`r format(strptime(params$day2, format = "%Y-%m-%d"), "%a %b %d %Y")`)
 will begin at **`r params$start_time_day2`**  in **`r params$venue_day2`**.
