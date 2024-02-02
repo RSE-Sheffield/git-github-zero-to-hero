@@ -1,0 +1,40 @@
+---
+title: ""
+author: ""
+date: ""
+output: html_document
+params:
+    day1:
+        label: "Input dataset1:"
+        value: "2024-02-05"
+        input: date
+    day2:
+        label: "Input dataset2:"
+        value: "2024-02-06"
+        input: date
+    session_joining_link: ""
+    start_time_day1: "09:30"
+    venue_day1: "Computer Room 2, Floor2, The Diamond"
+    start_time_day2: "09:30"
+    venue_day2: "Computer Room 4, Floor2, The Diamond"
+    lead_instructor: "Neil Shephard"
+---
+
+
+<!--- Send this email the morning of the event --->
+
+We're looking forward to welcoming you to the RSE Sheffield training session on **git & GitHub through GitKraken
+ Client - from Zero to Hero** shortly!
+
+Today's session
+(`r format(strptime(params$day1, format = "%Y-%m-%d"), "%a %b %d %Y")`) starts at **`r params$start_time_day1`** in
+**`r params$venue_day1`**. Tomorrow's session (`r format(strptime(params$day2, format = "%Y-%m-%d"), "%a %b %d %Y")`)
+will begin at **`r params$start_time_day2`**  in **`r params$venue_day2`**.
+
+See you all soon!
+
+Mr `r params$lead_instructor`
+
+**Research Software Engineer**
+
+University of Sheffield
