@@ -1,0 +1,176 @@
+name: myDevelopment Setup
+description: Setup delivery of the course using myDevelopment
+title:  "[Setup]: "
+labels: "session-setup"
+assignees:
+  - ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The lead instructor needs to work through the tasks in this issue. Currently RSE do not have direct access to the [myDevelopment](https://mydevelopment.csod.com/ui/lms-learner-home/home) system where the [git & GitHub through GitKraken](https://mydevelopment.csod.com/ui/lms-learning-details/app/event/d4d09f67-097b-4451-8ddb-86cb90636c06) page is listed. Norbert Gyenge from ITS currently assists with this side of the administration.
+
+        ## Who, When and Where
+
+        After deciding on instructors and dates the next steps depend on whether you are conducting the training in-person, online or hybrid. Whilst hybrid sessions are possible it is recommended to stick with either in-person or online as they are easier to manage the collaborative tasks.
+
+        ## In Person/Hybrid
+
+        If the course is to be run in person you need to [book a
+        room](https://sites.google.com/sheffield.ac.uk/pooledroomdirectory/home)
+
+        ## On-line/Hybrid
+
+        ### Blackboard Collaborate Session
+
+        - Go to [Blackboard Collaborate](https://vle.shef.ac.uk), logging in via MUSE,
+        - Under `Organisations` open `COM - Research Software Engineering`,
+        - Select `Create Session` and fill in the details as follows:
+        - Session Name: `git & GitHub through GitKraken - from Zero to Hero!`
+        - Guest Access: :heavy_check_mark:
+        - Make sure that `Guest role` is set to `participant`
+        - Set the start and end dates and times suitable for the session, add 30 mins to 1hr extra onto the scheduled end time.
+        - Early entry: 15 minutes before start time.
+        - Click `create`, this will create the session link, make a note of this for the emails.
+
+        ## myDevelopment
+
+        Once these details have been setup they should be shared with [Norbert Gyenge](mailto:n.g.gyenge@sheffield.ac.uk) who will update the [myDevelopment page]() so that participants can register.
+
+        ## Emails
+
+        Emails can be drafted and scheduled for sending when setting up the course but Norbert will have to provide a list of participants prior to the emails being sent.
+
+        There are up to 5 emails that need to be scheduled for this course. There are parameterised `.Rmd` templates in
+        the`emails/` directory which should be used to generate the contents of these emails in HTML for copy and pasted
+        into Gmail and [scheduled](https://support.google.com/mail/answer/9214606?hl=en&co=GENIE.Platform%3DDesktop)
+
+        | Schedule        | File                            | Description                                                                                                               |
+        |:----------------|:--------------------------------|:--------------------------------------------------------------------------------------------------------------------------|
+        | 2 week reminder | `attendance_reminder_email.Rmd` | An attendance reminder to encourage participants who cannot attend anymore to cancel.                                     |
+        | 1 Week Reminder | `setup_email.Rmd` / `setup_email_two_day.Rmd` | A reminder of the setup instructions as well as information about the session platform and joining link (use appropriately to how course is being run). |
+        | 4 Day Reminder  | `setup_email.Rmd` / `setup_email_two_day.Rmd` | A reminder of the setup instructions as well as information about the session platform and joining link (use appropriately to how course is being run). |
+        | On the Morning  | `joining_reminder_email.Rmd`    | A reminder of the joining link.                                                                                           |
+        | Day After       | `feedback_survey_email.Rmd`     | A request to complete a survey.                                                                                           |
+
+        Not all templates require all parameters but across all four email templates the parameters required are:
+
+        - `lead_instructor`: name of the lead instructor.
+        - `session_joining_link`: link to the blackboard collaborate room (if teaching on-line/hybrid).
+        - `event_date`: the date of the session in ISO format (`YYYY-MM-DD`)
+        - `event_start_time`: defaults to "10:00"
+        - `lunch_time`: defaults to "13:00"
+        - `prefilled_survey_link`: the unchanging part of the survey link containing the identifier of the date of course question to be pre-populated with the `event_date` parameter.
+
+        **IMPORTANT** If the course is being run _only_ in-person you should remove **ALL** references to joining online or using two monitors from the emails to avoid confusion and the possibility of some people joining remotely.
+
+        #### Knitting & Sending
+
+
+        To use these, open each `.Rmd`, edit parameters in the YAML header under `params` and knit to render to html. If you do this in [RStudio](https://rstrudio.com) then you can select the "_Knit on Save_" option. Alternatively you can knit the document from [R](https://www.r-project.org) with the following, assuming your currently located in the root of the repository directory and wish to knit the `<email-to-be-knitted>.Rmd`.
+
+        ``` R
+        rmarkdown::render("emails/<email-to-be-knitted>.Rmd")
+        ```
+
+        You can run this at the command line without starting an R session using the `-e` flag.
+
+        ``` bash
+        R -e "rmarkdown::render('emails/<email-to-be-knitted>.Rmd')"
+        ```
+
+        The html content should then be copied (from the viewer in RStudio or the generated HTML document) and pasted into the body of an email on Gmail and the sending [scheduled](https://support.google.com/mail/answer/9214606?hl=en&co=GENIE.Platform%3DDesktop) for an appropriate date/time.
+
+        Once all tasks are complete close the issue.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      description: A Checklist is provided below for the various tasks that are required, if you can complete the fields below for each on creation that is useful too.
+      options:
+        - label: Identify lead and assistant to run the course
+          required: false
+        - label: Choose date(s) on which to run the course.
+          required: false
+        - label: Choose whether course will be in-person (recommended) or on-line.
+          required: false
+        - label: If in-person/hybrid book a room.
+          required: false
+        - label: If online/hybrid setup Blackboard Collaborate Session.
+          required: false
+        - label: Contact [Norbert Gyenge](mailto:n.g.gyenge@sheffield.ac.uk) with details, the page description shouldn't need changing.
+          required: false
+        - label: Schedule emails for those who are registered.
+          required: false
+        - label: Setup an issue for instructors to prepare materials for next session.
+          required: false
+  - type: textarea
+    id: lead
+    attributes:
+      label: Lead instructor
+      description: Who will be the lead instructor for the session.
+    validations:
+      required: false
+  - type: textarea
+    id: second
+    attributes:
+      label: Second instructor
+      description: Who will be the second instructor for the session.
+    validations:
+      required: false
+  - type: dropdown
+    id: venue
+    attributes:
+      label: Will the course be in-person, online or hybrid?
+      multiple: true
+      options:
+        - In-person
+        - Online
+        - Hybrid
+    validations:
+      required: true
+  - type: textarea
+    id: room_hybrid
+    attributes:
+      label: Room Booking
+      description: If running in-person or hybrid and a room has been requested/booked please enter details including the Help Desk ticket number.
+    validations:
+      required: false
+  - type: textarea
+    id: online_hybrid
+    attributes:
+      label: Online/Hybrid
+      description: If running online or hybrid please add the session details/links here.
+    validations:
+      required: false
+  - type: checkboxes
+    id: mydevelopment
+    attributes:
+      label: Email details of date/time and rooms to Norbert Gynge.
+      description: Norbert will add the event details to myDevelopment and open it to registration.
+      options:
+        - label: Emailed Norbert
+          required: false
+  - type: checkboxes
+    id: email_schedule
+    attributes:
+      label: Schedule Emails
+      description: Emails can be scheduled from the lead instructors Gmail account using the templates provided but email addresses need obtaining from Norbert Gynge.
+      options:
+        - label: Two week setup instructions.
+          required: false
+        - label: One week setup instructions.
+          required: false
+        - label: Four day joining reminder.
+          required: false
+        - label: Same day joining reminder.
+          required: false
+        - label: Feedback survey email.
+          required: false
+  - type: textarea
+    id: prepare_material
+    attributes:
+      label: Issue for preparing material
+      description: Add the issue number created for instructors to prepare the material below.
+    validations:
+      required: false
