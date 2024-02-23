@@ -24,6 +24,8 @@ Links to further resources on Git, GitHub and GitKraken as well as other popular
 * [GitHub Actions](https://docs.github.com/en/actions)
 * [GitHub Pages](https://pages.github.com/)
 * [GitHub Actions for the R community](https://github.com/r-lib/actions)
+* [Refined GitHub](https://github.com/refined-github/refined-github) : Browser extension that simplifies the GitHub
+  interface and adds useful features
 
 ## GitKraken
 
