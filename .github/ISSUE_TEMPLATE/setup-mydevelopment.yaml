@@ -67,7 +67,7 @@ body:
         #### Knitting & Sending
 
 
-        To use these, open each `.Rmd`, edit parameters in the YAML header under `params` and knit to render to html. If you do this in [RStudio](https://rstrudio.com) then you can select the "_Knit on Save_" option. Alternatively you can knit the document from [R](https://www.r-project.org) with the following, assuming your currently located in the root of the repository directory and wish to knit the `<email-to-be-knitted>.Rmd`.
+        To use these, open each `.Rmd`, edit parameters in the YAML header under `params` and knit to render to html. If you do this in [RStudio](https://rstrudio.com) then you can select the "_Knit on Save_" option. Alternatively you can knit the document from [R](https://www.r-project.org) with the following, assuming you're currently located in the root of the repository directory and wish to knit the `<email-to-be-knitted>.Rmd`.
 
         ``` R
         rmarkdown::render("emails/<email-to-be-knitted>.Rmd")
