@@ -25,10 +25,10 @@ the GitKraken development team._
 
 ### Integrating GitKraken Client with GitHub
 
-In order to effectively work with GitHub repositories through GitKraken Client, you will need to **enable the integration and authenticate with GitHub**. You can then use GitKraken Client to **define or generate an [SSH key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)** that authenticates git operations on GitHub through GitKraken Client. Follow [the instructions on the GitKraken site](https://support.gitkraken.com/integrations/github/) to perform both steps.
+In order to effectively work with GitHub repositories through GitKraken Client, you will need to **enable the integration and authenticate with GitHub**. You can then use GitKraken Client to **define or generate an [SSH key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)** that authenticates git operations on GitHub through GitKraken Client. Follow [the instructions on the GitKraken site](https://help.gitkraken.com/gitkraken-client/github-gitkraken-client/) to perform both steps.
 
 ```{r, echo=FALSE}
-knitr::include_url("https://support.gitkraken.com/integrations/github/")
+knitr::include_url("https://help.gitkraken.com/gitkraken-client/github-gitkraken-client/")
 ```
 
 
@@ -36,6 +36,6 @@ knitr::include_url("https://support.gitkraken.com/integrations/github/")
 
 GPG adds another layer of trust to your commits by [allowing you to digitally signing them](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work). We'll not explore this topic further in this workshop so please **check your GPG settings under <kbd>preferences</kbd> and ensure the "Sign Commits by Default" and "Sign Tags by Default" options are unchecked**.
 
-![](/images/gpg_off.png)
+![](../../../images/gpg_off.png)
 
 If you want to set GPG signing up in GitKraken Client, have a look at the documentation on [Commit Signing with GPG](https://support.gitkraken.com/git-workflows-and-extensions/commit-signing-with-gpg/).
