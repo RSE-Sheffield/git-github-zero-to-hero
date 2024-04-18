@@ -6,16 +6,19 @@ output: html_document
 params:
     day1:
         label: "Input dataset1:"
-        value: "2024-02-05"
+        value: "2024-04-22"
         input: date
+        venue:
     day2:
         label: "Input dataset2:"
-        value: "2024-02-06"
+        value: "2024-04-23"
         input: date
     event_start_time_day1: "09:30"
     event_end_time_day1: "13:00"
+    venue_day1: "Hicks Building - G34a"
     event_start_time_day2: "09:30"
     event_end_time_day2: "13:00"
+    venue_day2: "Hicks Building - G34a"
     session_joining_link: ""
     lead_instructor: "Neil Shephard"
 
@@ -25,7 +28,8 @@ params:
 
 <!--- Send this email around 1 week prior to event --->
 
-We're looking forward to welcoming you to the RSE Sheffield training session on **git & GitHub through GitKraken Client - from Zero to Hero!**
+We're looking forward to welcoming you to the RSE Sheffield training session on **git & GitHub through GitKraken
+Client - from Zero to Hero!**
 
 
 ### SETUP
@@ -40,30 +44,22 @@ a [GitHub Educational account](https://education.github.com/discount_requests/st
 free please see the [tip](https://srse-git-github-zero2hero.netlify.app/setup/github/) about using your academic email address.
 
 
-If joining an on-line version of the course, we recommend using a two screen set up if possible so you can observe the
-live demonstration on one screen and perform the practical exercises on another.
-
 ### SCHEDULE
 
 We’ll **kick off at `r params$event_start_time_day1` on `r format(strptime(params$day1, format = "%Y-%m-%d"), "%a %b %d
-%Y")`** and aim to have a few breaks throughout the morning, finishing at `r params$event_end_time_day1`. The second
-session will follow **at `r params$event_start_time_day2` on `r format(strptime(params$day2, format = "%Y-%m-%d"), "%a %b %d
-%Y")`** and follow the same format.
+%Y")`** in **`r params$venue_day1`** and aim to have a few breaks throughout the morning, finishing
+at `r params$event_end_time_day1`. The second session will follow **at `r params$event_start_time_day2` on
+`r format(strptime(params$day2, format = "%Y-%m-%d"), "%a %b %d %Y")`**  in **`r params$venue_day2`** and follow the
+same format.
 
 There will be some time at the end of each day for questions and discussions.
+
 
 ### ATTENDANCE
 
 **In the event that you can no longer make it, we please ask that you cancel your ticket so we can offer it to someone on the waiting list**.
 
-### COURSE DELIVERY PLATFORM
-
-We will be using [Blackboard Collaborate](https://www.sheffield.ac.uk/apse/digital/collaborate/students) to deliver the course. On the day please click the link below to join the course room:
-
-
-## [**JOIN COURSE ROOM**](`r params$session_joining_link`)
-
-For session security, please do not share the joining link.
+<!-- **NB** Please note we will _not_ be in the same venue on the second day. -->
 
 <br>
 
