@@ -4,8 +4,22 @@ author: ""
 date: ""
 output: html_document
 params:
+    day1:
+        label: "Input dataset1:"
+        value: "2024-04-22"
+        input: date
+    day2:
+        label: "Input dataset2:"
+        value: "2024-04-23"
+        input: date
+    event_start_time_day1: "09:30"
+    event_end_time_day1: "13:00"
+    venue_day1: "Hicks Building - G34a"
+    event_start_time_day2: "09:30"
+    event_end_time_day2: "13:00"
+    venue_day2: "Hicks Building - G34a"
     session_joining_link: ""
-    lead_instructor: "David Wilby"
+    lead_instructor: "Neil Shephard"
 ---
 
 
@@ -14,16 +28,22 @@ params:
 We're looking forward to welcoming you to the RSE Sheffield training session on **git & GitHub through GitKraken Client
  - from Zero to Hero** shortly!
 
+### SCHEDULE
 
-To join the session please click the link below:
- 
+We’ll **kick off at `r params$event_start_time_day1` on `r format(strptime(params$day1, format = "%Y-%m-%d"), "%a %b %d
+%Y")`** in **`r params$venue_day1`** and aim to have a few breaks throughout the morning, finishing
+at `r params$event_end_time_day1`. The second session will follow **at `r params$event_start_time_day2` on
+`r format(strptime(params$day2, format = "%Y-%m-%d"), "%a %b %d %Y")`**  in **`r params$venue_day2`** and follow the
+same format.
 
-# [**JOIN COURSE ROOM**](`r params$session_joining_link`)
+There will be some time at the end of each day for questions and discussions.
 
-See you all soon! 
- 
+
+
+See you all soon!
+
 `r params$lead_instructor`
 
 **Research Software Engineer**
 
-University of Sheffield  
+University of Sheffield
