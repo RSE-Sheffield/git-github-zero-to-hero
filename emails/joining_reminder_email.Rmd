@@ -33,7 +33,7 @@ We're looking forward to welcoming you to the RSE Sheffield training session on 
 We’ll **kick off at `r params$event_start_time_day1` on `r format(strptime(params$day1, format = "%Y-%m-%d"), "%a %b %d
 %Y")`** in **`r params$venue_day1`** and aim to have a few breaks throughout the morning, finishing
 at `r params$event_end_time_day1`. The second session will follow **at `r params$event_start_time_day2` on
-`r format(strptime(params$day2, format = "%Y-%m-%d"), "%a %b %d %Y")`**  in **`r params$venue_day1`** and follow the
+`r format(strptime(params$day2, format = "%Y-%m-%d"), "%a %b %d %Y")`**  in **`r params$venue_day2`** and follow the
 same format.
 
 There will be some time at the end of each day for questions and discussions.
