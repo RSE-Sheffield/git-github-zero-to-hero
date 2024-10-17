@@ -12,7 +12,7 @@ Let's use the first pull request made to the repo as an example. In this case, i
 
 ## <i class="fas fa-user-circle"></i> Review 1st Subtract Pull Request 
 
-As I mentioned, there is atleast one error in the Pull Request as a result of erroneous instructions in the issue.
+As I mentioned, there is at least one error in the Pull Request as a result of erroneous instructions in the issue.
 
 Problems are also indicated by the failing tests which we can inspect.
 
