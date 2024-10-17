@@ -8,7 +8,7 @@ weight: 7
   - You can access it from any location.
   - If your repository is open, other people can benefit from your work, they can contribute, reference you or even make recommendations.
   
-Now, what if you you make changes directly on the GitHub repository or using another machine ? These changes are not locally synchronized with your primary computer. This is where **pull** comes into play.  
+Now, what if you you make changes directly on the GitHub repository or using another machine? These changes are not locally synchronized with your primary computer. This is where **pull** comes into play.  
 
 <br>
 
