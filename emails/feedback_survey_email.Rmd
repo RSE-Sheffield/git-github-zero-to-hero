@@ -6,14 +6,14 @@ output: html_document
 params:
     prefilled_survey_link: "https://docs.google.com/forms/d/e/1FAIpQLSelm8eDL1GdSHzLwv8hHk0xc8nDewFjR2pk4745jWEebzWThw/viewform?usp=pp_url&entry.1155463189="
     lead_instructor: "Neil Shephard"
-    event_date: "2024-02-05"
+    event_date: "2024-10-29"
 ---
 
 <!--- Send this email 1 day after event --->
 
 
-Thank you for attending our **git & GitHub through GitKraken Client - from Zero to Hero course**. We hope you enjoyed it
- and found it useful!
+Thank you for attending our **[git & GitHub through GitKraken Client - from Zero to Hero course][course-material]**. We
+ hope you enjoyed it and found it useful!
 
 We are always looking to improve our course in order to meet our participants' needs so your feedback would be very
  helpful. We would be grateful if you could take a few minutes to complete our short survey.
@@ -26,8 +26,18 @@ Thank you for taking the time to provide feedback!
 
 <br>
 
-Please visit https://rse.shef.ac.uk or subscribe to our mailing list for information on future training sessions.
+Please visit [rse.shef.ac.uk][rse]  or subscribe to our [mailing list][rse-group] for information on future training
+sessions. Of particular interest is the [FAIR^2 for Research Software][rse-fair2] course which covers open and
+reproducible software development.
 
+## Further materials
+
+Some useful materials on Git and GitHub.
+
+- [Happy Git and GitHub for the useR][happy-git] - using Git and RStudio with GitHub.
+- [Refined GitHub][refined-github] - a useful browser plugin that improves the GitHub experience.
+- [Atlassian Git Tutorials and Workflows][atlassian-tutorials] - useful tutorials on using Git.
+- [Git Flight Rules][git-flight-rules] - clear concise steps for carrying out different Git tasks.
 <br>
 
 ##### `r params$lead_instructor`
@@ -35,3 +45,13 @@ Please visit https://rse.shef.ac.uk or subscribe to our mailing list for informa
 **Research Software Engineer**
 
 University of Sheffield
+
+[atlassian-tutorials]: https://www.atlassian.com/git
+[course-material]: https://srse-git-github-zero2hero.netlify.app/
+[course-material-links-faq]: https://srse-git-github-zero2hero.netlify.app/faq-glossary-links/
+[git-flight-rules]: https://github.com/k88hudson/git-flight-rules
+[happy-git]: https://happygitwithr.com/
+[refined-github]: https://github.com/refined-github/refined-github/
+[rse-fair2]: https://rse.shef.ac.uk/training/fair4rs/
+[rse]: https://rse.shef.ac.uk
+[rse-group]: https://groups.google.com/a/sheffield.ac.uk/g/rse-group
