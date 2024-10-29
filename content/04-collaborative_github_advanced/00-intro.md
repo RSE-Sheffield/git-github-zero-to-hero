@@ -28,3 +28,19 @@ Branching is a core concept in Git. There's only one rule: **anything in the `ma
 
 
 it's extremely important that your new branch is created off of main when working on a feature or a fix. Your branch name should be descriptive, so that others can see what is being worked on.
+
+
+{{<mermaid>}}
+%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': true,'showCommitLabel': false}} }%%
+gitGraph
+    commit
+    commit
+    commit
+    commit
+    commit
+    branch feature
+    checkout feature
+    commit
+    commit
+    checkout main
+{{</mermaid>}}
