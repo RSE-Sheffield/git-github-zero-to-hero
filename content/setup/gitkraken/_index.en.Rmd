@@ -13,7 +13,7 @@ knitr::include_url("https://gitkraken.com/download")
 ```
 
 
-Then follow the [installation instructions](https://support.gitkraken.com/how-to-install/) provided on their website.
+Then follow the [installation instructions](https://help.gitkraken.com/gitkraken-desktop/how-to-install/) provided on their website.
 
 {{% notice note %}}
 _In the installation instructions you'll see that you do not actually need to install **Git** separately to use
