@@ -3,6 +3,12 @@ title: Gitkraken Client
 weight: 5
 ---
 
+<!-- IMPORTANT  - If you modify this file it will _not_ get deployed automatically you must render -->
+<!--              it to html locally and include the .html in your commit for it to be deplyed     -->
+<!--                                                                                               -->
+<!--              Rscript -e "rmarkdown::render('_index.en.Rmd', output_format='html_document')"   -->
+<!--              git add _index.en.{Rmd,html}                                                     -->
+
 ### Install GitKraken Client
 
 To install **GitKraken Client** download the correct binary for your system.
