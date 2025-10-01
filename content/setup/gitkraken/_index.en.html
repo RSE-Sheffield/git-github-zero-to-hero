@@ -1,8 +1,9 @@
-<!DOCTYPE html>
+---
+title: Gitkraken Client
+weight: 5
+---
 
-<html>
-
-<head>
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
 <div id="install-gitkraken-client" class="section level3">
@@ -29,66 +30,11 @@ authenticate with GitHub</strong>. You can then use GitKraken Client to
 key</a></strong> that authenticates git operations on GitHub through
 GitKraken Client. Follow <a href="https://help.gitkraken.com/gitkraken-client/github-gitkraken-client/">the
 instructions on the GitKraken site</a> to perform both steps.</p>
-<iframe src="https://help.gitkraken.com/gitkraken-client/github-gitkraken-client/" width="672" height="400px" data-external="1">
+<iframe src="https://help.gitkraken.com/gitkraken-desktop/github-gitkraken-desktop/" width="672" height="400px" data-external="1">
 </iframe>
 </div>
 <div id="turn-off-gpg" class="section level3">
-<h3>Turn off GPG</h3>
-<p>GPG adds another layer of trust to your commits by <a href="https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work">allowing
-you to digitally signing them</a>. We’ll not explore this topic further
-in this workshop so please <strong>check your GPG settings under
-<kbd>preferences</kbd> and ensure the “Sign Commits by Default” and
-“Sign Tags by Default” options are unchecked</strong>.</p>
-<p><img role="img" src="../../../images/gpg_off.png" /></p>
-<p>If you want to set GPG signing up in GitKraken Client, have a look at
-the documentation on <a href="https://support.gitkraken.com/git-workflows-and-extensions/commit-signing-with-gpg/">Commit
-Signing with GPG</a>.</p>
-</div>
-
-
+	@@ -397,46 +50,3 @@ <h3>Turn off GPG</h3>
 
 
 </div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-
-
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open');
-  });
-});
-</script>
-
-<!-- code folding -->
-
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
-
-</body>
-</html>
