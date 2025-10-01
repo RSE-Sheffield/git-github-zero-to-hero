@@ -3,6 +3,12 @@ title: Gitkraken Client
 weight: 5
 ---
 
+<!-- IMPORTANT  - If you modify this file it will _not_ get deployed automatically you must render -->
+<!--              it to html locally and include the .html in your commit for it to be deplyed     -->
+<!--                                                                                               -->
+<!--              Rscript -e "rmarkdown::render('_index.en.Rmd', output_format='html_document')"   -->
+<!--              git add _index.en.{Rmd,html}                                                     -->
+
 ### Install GitKraken Client
 
 To install **GitKraken Client** download the correct binary for your system.
@@ -28,7 +34,7 @@ the GitKraken development team._
 In order to effectively work with GitHub repositories through GitKraken Client, you will need to **enable the integration and authenticate with GitHub**. You can then use GitKraken Client to **define or generate an [SSH key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)** that authenticates git operations on GitHub through GitKraken Client. Follow [the instructions on the GitKraken site](https://help.gitkraken.com/gitkraken-client/github-gitkraken-client/) to perform both steps.
 
 ```{r, echo=FALSE}
-knitr::include_url("https://help.gitkraken.com/gitkraken-client/github-gitkraken-client/")
+knitr::include_url("https://help.gitkraken.com/gitkraken-desktop/github-gitkraken-desktop/")
 ```
 
 
