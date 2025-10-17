@@ -64,6 +64,38 @@ Some Markdown content is generated with [R Markdown](https://rmarkdown.rstudio.c
 
 The website is deployed by [Netlify](https://www.netlify.com/).
 
+### Building locally
+To build the materials locally, you will need to install [Hugo](https://gohugo.io/).7
+You can build the course materials by running the `hugo` command from the root directory.
+You can view the site by running `hugo server`, again from the root directory.
+You will then see a message like
+```
+Watching for changes in /home/michael/Documents/git-github-zero-to-hero/{archetypes,content,layouts,static}
+Watching for config changes in /home/michael/Documents/git-github-zero-to-hero/config.toml, /home/michael/Documents/git-github-zero-to-hero/go.mod
+Start building sites …
+hugo v0.123.7+extended linux/amd64 BuildDate=2025-07-18T03:41:49Z VendorInfo=ubuntu:0.123.7-1ubuntu0.3
+
+
+                   | EN   
+-------------------+------
+  Pages            |  72  
+  Paginator pages  |   0  
+  Non-page files   |   0  
+  Static files     | 395  
+  Processed images |   0  
+  Aliases          |   0  
+  Cleaned          |   0  
+
+Built in 343 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+```
+To view the material, navigate to [localhost:1313](localhost:1313) (or whatever port number it comes up with) in your web browser.
+
+
 ### Why these tools?
 
 Why use Hugo for both the website and slidedecks, and not, say Hugo+hugodown for pages and xaringan for slides?
