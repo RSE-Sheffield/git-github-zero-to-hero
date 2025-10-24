@@ -5,7 +5,7 @@ weight: 3
 
 
 
-### **Fork a repository on GitHub** 
+### **Fork a repository on GitHub**
 
 <br>
 
@@ -22,14 +22,11 @@ weight: 3
 
 Make your **own copy of the repository** on GitHub. Forks are linked and traceable
 
-<img src="/images/fork-1.png" width="700px" /> 
+<img src="/images/fork-1.png" width="700px" />
 
 
 <br>
 
 When forking, GitHub makes a **copy of the repository into your account**
 
-<img src="/images/fork-2-gk.png" width="700px" />
  
-
-
