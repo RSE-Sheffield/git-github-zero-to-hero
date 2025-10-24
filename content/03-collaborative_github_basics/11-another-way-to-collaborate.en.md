@@ -24,6 +24,6 @@ Use a [**`CONTRIBUTING.md`**](https://docs.github.com/en/github/building-a-stron
 
 ### Adding collaborators
 
-To add a collaborator to your repository, in your GitHub repository online, go to the <i class="fa fa-cog" aria-hidden="true"></i> **Settings** tab (top leftish), then click on the "Collaborators and Teams" link on the left hand side menu. 
+To add a collaborator to your repository, in your GitHub repository online, go to the <i class="fa fa-cog" aria-hidden="true"></i> **Settings** tab, then click on the "Collaborators and Teams" link on the left hand side menu. 
 
 ![](/images/github-manage-access.png)
