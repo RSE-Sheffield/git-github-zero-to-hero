@@ -12,7 +12,7 @@ The changes you made locally have now been committed and pushed to your fork on 
 
 #### Initiate a new pull request
 
-GitHub is already flagging the fact that your **fork is ahead of the `master` branch** in the upstream repository and a **button to make a new pull request** with your changes is visible above that flag.
+GitHub is already flagging the fact that your **fork is ahead of the `master` branch** in the upstream repository and a **button to contribute your changes** is visible alongside that flag.
 
 To initiate a pull request (PR) **click `Contribute`** and then **click `Open pull request`**.
 
