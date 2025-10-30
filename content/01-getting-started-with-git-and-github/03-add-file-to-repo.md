@@ -7,19 +7,19 @@ Okay! Now we need to do something with the repository. Let's start with a basic 
 
 - Open the folder (repo) you have just created. In GitKraken Client, you can do this by going to `File > Open in File Manager`. 
 
-	<img src="/images/work-1-gk.png" alt="title picture" width="700px">
+	<img src="/images/01-06-sd-gitkraken_open_in_file_exporer.png" alt="title picture" width="700px">
 
 <br>
 
 - Now create a file in this folder. Open your favourite text editor and use to create a new *TODO.txt* file.
 
-	<img src="/images/work-2-gk.png" alt="title picture" width="700px">
+	<img src="/images/01-07-sd-repo_folder_with_todo.png" alt="title picture" width="700px">
 
 <br>
 
 - Hop over to GitKraken Client again. You should see the new file you added! 
 
-	<img src="/images/work-3-gk.png" alt="title picture" width="700px">
+	<img src="/images/01-08-sd-gitkraken_unstaged.png" alt="title picture" width="700px">
 
 <br>
 
@@ -33,12 +33,12 @@ Okay! Now we need to do something with the repository. Let's start with a basic 
     
     - __Commit changes to n files:__ Pressing this button will commit our changes *to our local repository*.
 
-	<img src="/images/work-4-gk.png" alt="title picture" width="700px">
+	<img src="/images/01-09-sd-gitkraken_commit.png" alt="title picture" width="700px">
 <br>
 
 - 	Now that we have commited our changes locally we can **push** them up to the remote repository. This is done by pressing the **Push** button on the top of GitKraken Client navigation bar.
 
-	<img src="/images/work-5-gk.png" alt="title picture" width="700px">	
+	<img src="/images/01-10-sd-gitkraken_push_to_repo.png" alt="title picture" width="700px">	
 
 <br>
 
