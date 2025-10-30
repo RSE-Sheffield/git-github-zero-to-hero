@@ -11,13 +11,13 @@ When a local directory becomes **initialised with git**, a **hidden `.git` folde
 
 - Create a new repository (`File > Init Repo`)
 
-	<img src="/images/init-1-gk.png" alt="title picture" width="700px">
+	<img src="/images/01-00-sd-gitkraken_init_repo.png" alt="title picture" width="700px">
 
 <br>
 
 - You will be presented with a new GUI with a bunch of options. To initialise a new repository and create a linked GitHub repository in one step, choose the GitHub.com option.
 
-	<img src="/images/init-2-gk.png" alt="title picture" width="700px">
+	<img src="/images/01-01-sd-gitkraken_init_modal.png" alt="title picture" width="700px">
 	
 	- __Account:__ The account in which you want the repository to be created under. This can be your account or an organization that you have access to.
 
@@ -35,7 +35,7 @@ When a local directory becomes **initialised with git**, a **hidden `.git` folde
 
 	- __License:__ A license is mainly a list of permissions specifying how other people can use your code. For example you may want others to use your code but only if they accredited you. [choosealicense.com](https://choosealicense.com/) can help you choose the right license. For open source repositories MIT and GNU GPLv3 are usually appropriate licenses.
 
-	<img src="/images/init-4-gk.png" alt="title picture" width="700px">
+	<img src="/images/01-02-sd-gitkraken_init_filled.png" alt="title picture" width="700px">
 
 <br>
 
@@ -45,7 +45,7 @@ When a local directory becomes **initialised with git**, a **hidden `.git` folde
 	- our local version of the repository and 
 	- the repository in GitHub.
 
-	<img src="/images/init-5-gk.png" alt="title picture" width="700px">
+	<img src="/images/01-030405-sd-combined.png" alt="title picture" width="700px">
 
 <br>
 
