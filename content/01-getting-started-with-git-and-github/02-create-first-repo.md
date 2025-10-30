@@ -29,9 +29,9 @@ When a local directory becomes **initialised with git**, a **hidden `.git` folde
 
 	- __Clone after init:__ This checkbox tells GitKraken Client to clone the resulting GitHub repository. This essentially creates a local copy of the repository at the path you specify next.
 
-	- __Where to clone to:__ Select the folder where the repository will be cloned to. Let's say _D:/GitHub_.
+	- __Where to clone to:__ Select the folder where the repository will be cloned to. Let's say _Documents/github-repositories_. However, if this path is not available on your system pick any folder that suits you.
 
-	- __Full path:__ This should now be _D:/GitHub/git-lesson_
+	- __Full path:__ This should now be something like _/Users/{username}/Documents/github-repositories_ - This should be the same as the path you previously cloned to.
 
 	- __License:__ A license is mainly a list of permissions specifying how other people can use your code. For example you may want others to use your code but only if they accredited you. [choosealicense.com](https://choosealicense.com/) can help you choose the right license. For open source repositories MIT and GNU GPLv3 are usually appropriate licenses.
 
