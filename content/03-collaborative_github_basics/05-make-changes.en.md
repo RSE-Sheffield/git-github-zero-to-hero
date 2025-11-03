@@ -36,7 +36,9 @@ The parameters each participants need to supply are:
 
 - **`species.name`:** a character string e.g. `"anas_krystallinus"`. Try to create a species name out of your name! It must be enclosed in double quotes (ie `"..."`)
 
-- **`color`:**  a character string e.g. `"red"`, `"#FFFFFF"` (Check out the list of available [**colours in R**](http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf)). It also must be enclosed in double quotes (ie `"..."`)
+- **`color`:**  a character string e.g. `"red"`, `"#FFFFFF"` (Check out the list of available [**colours in
+  R**](https://github.com/RSE-Sheffield/collaborative_github_exercise/blob/master/assets/Rcolor.pdf)). It also must be
+  enclosed in double quotes (ie `"..."`)
 
 **NB: remember to save the changes to your file**
 
