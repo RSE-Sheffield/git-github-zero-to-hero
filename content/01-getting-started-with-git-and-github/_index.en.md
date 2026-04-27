@@ -5,7 +5,6 @@ pre: <b>01. </b>
 title: Getting Started With Git and Github
 weight: 2
 ---
-# Getting Started With Git and Github
 
 ### Let's start with some practical exercises!
 

@@ -1,6 +1,6 @@
 ---
 title: Snippets
-weight: 1
+weight: 100
 hidden: true
 chapter: false
 disableToc: false

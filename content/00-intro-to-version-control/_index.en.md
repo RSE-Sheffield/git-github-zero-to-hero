@@ -5,8 +5,3 @@ pre: <b>00. </b>
 title: Introduction to Version Control
 weight: 1
 ---
-
-
-# Introduction to Version Control
-
-

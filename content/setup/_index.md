@@ -1,6 +1,6 @@
 ---
 title: Setup
-weight: 100
+weight: 7
 chapter: true
 pre: <i class="fas fa-cogs"></i>&nbsp;
 menuTitle: Setup
