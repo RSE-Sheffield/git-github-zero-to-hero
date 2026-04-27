@@ -11,15 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Set up Golang compiler
-        uses: actions/setup-go@v6
-        with:
-          go-version: 1.12
-
       - name: Set up Hugo
-        shell: bash
-        run: |
-          CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@v0.73.0
+        uses: peaceiris/actions-hugo@75d2e84710de30f6ff7268e08f310b60ef14033f  # v3, pinned for security
+        with:
+          hugo-version: '0.73.0'
+          extended: true
 
       - name: Build site with Hugo
         run: |
