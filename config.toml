@@ -59,9 +59,13 @@ weight = 50
   disableBreadcrumb = false
   disableNextPrev = false
   themeVariant = "rse-learn"
-  [params.author]
-    name = "Anna Krystalli, Sheffield RSE"
+  linkTitle = " "
 
+[params.author]
+  name = "Anna Krystalli, Sheffield RSE"
+
+[params.logo]
+  src = "/images/TUOS-RSE-logos-small.png"
 
 
 [markup]
