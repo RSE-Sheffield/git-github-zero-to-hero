@@ -76,15 +76,15 @@ Start building sites …
 hugo v0.123.7+extended linux/amd64 BuildDate=2025-07-18T03:41:49Z VendorInfo=ubuntu:0.123.7-1ubuntu0.3
 
 
-                   | EN   
+                   | EN
 -------------------+------
-  Pages            |  72  
-  Paginator pages  |   0  
-  Non-page files   |   0  
-  Static files     | 395  
-  Processed images |   0  
-  Aliases          |   0  
-  Cleaned          |   0  
+  Pages            |  72
+  Paginator pages  |   0
+  Non-page files   |   0
+  Static files     | 395
+  Processed images |   0
+  Aliases          |   0
+  Cleaned          |   0
 
 Built in 343 ms
 Environment: "development"
@@ -112,7 +112,9 @@ Also, because slides are in the content, they are indexed by the Hugo learn them
 
 ## Credits
 
-The workshop materials website template is based on the
+The workshop materials website template was originally based on the
 [hugo-theme-learn](https://github.com/matcornic/hugo-theme-learn), [reveal-hugo](https://github.com/dzello/reveal-hugo)
 Hugo themes and further work and configuration by Maëlle Salmon for her course site on [**Scientific blogging with R
 Markdown**](https://github.com/maelle/rmd-blogging-course).
+
+The current version uses [hugo-theme-relearn](https://github.com/McShelby/hugo-theme-relearn).

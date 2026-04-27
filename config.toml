@@ -9,7 +9,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "index\\.html",
 
 [module]
   [[module.imports]]
-    path = "github.com/matcornic/hugo-theme-learn"
+    path = "github.com/McShelby/hugo-theme-relearn"
   [[module.imports]]
     path = "github.com/dzello/reveal-hugo"
 
@@ -55,12 +55,12 @@ weight = 50
 
 [params]
   editURL = "https://github.com/RSE-Sheffield/git-github-zero-to-hero/edit/master/content/"
-  description = "Git & Github through GitKraken Client - From Zero to Hero!"
-  author = "Anna Krystalli, Sheffield RSE"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
   themeVariant = "rse-learn"
+  [params.author]
+    name = "Anna Krystalli, Sheffield RSE"
 
 
 
