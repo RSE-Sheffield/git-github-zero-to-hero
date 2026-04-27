@@ -1,5 +1,5 @@
 ---
-title: "Git & Github through GitKraken Client - From Zero to Hero!"
+title: "Git & GitHub through GitKraken Client - From Zero to Hero!"
 ---
 
 In this course you'll be learning version control and collaboration through Git, GitHub & GitKraken Client

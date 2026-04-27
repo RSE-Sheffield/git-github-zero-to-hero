@@ -11,10 +11,10 @@ weight: 5
 - **License**. Without some sort of licence, the contents of the repository are technically closed. Some allow users of the code to do anything they like with their code - these are known as permissive licences. Examples are the [MIT Licence](https://tldrlegal.com/license/mit-license) or [Apache](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)).
     + [https://choosealicense.com/](https://choosealicense.com/) - does what it says on the tin and helps you choose a licence. Here are some resources to help you choose:
     + [https://tldrlegal.com/](https://tldrlegal.com/) - plain english explanations of licences in bullet form.
-    
+
 - **Contributing guide** - make a file called CONTRIBUTING.md and guidelines for contributors so they know what they should do if they want to help you out.
 
-- **Code of Conduct** - good projects have codes of conduct to make sure that people are treated well. Github has an [Code of Conduct wizard](https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/) to make it easy to add one.
+- **Code of Conduct** - good projects have codes of conduct to make sure that people are treated well. GitHub has an [Code of Conduct wizard](https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/) to make it easy to add one.
 
 - **Issues** - use GitHub issues to record and discuss tasks.
 

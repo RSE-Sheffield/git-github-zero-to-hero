@@ -15,7 +15,7 @@ We'll be:
 
 
 
-## Github Workflow
+## GitHub Workflow
 
 
 

@@ -2,7 +2,7 @@
 chapter: true
 date: "2020-08-05T17:55:45+01:00"
 pre: <b>02. </b>
-title: Websites With Github Pages
+title: Websites With GitHub Pages
 weight: 3
 ---
 

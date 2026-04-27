@@ -7,7 +7,7 @@
 [![](https://i.creativecommons.org/l/by/3.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)
 <!-- badges: end -->
 
-This repo contains the source code of the website of the ***Git & Github through GitKraken Client - From Zero to Hero!*** course.
+This repo contains the source code of the website of the ***Git & GitHub through GitKraken Client - From Zero to Hero!*** course.
 
 ## Prepation for course:
 
