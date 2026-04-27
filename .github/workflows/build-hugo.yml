@@ -1,0 +1,28 @@
+name: Build site with Hugo
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@75d2e84710de30f6ff7268e08f310b60ef14033f  # v3, pinned for security
+        with:
+          hugo-version: '0.73.0'
+          extended: true
+
+      - name: Build site with Hugo
+        run: |
+          hugo --minify
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: hugo-public
+          path: public/*
