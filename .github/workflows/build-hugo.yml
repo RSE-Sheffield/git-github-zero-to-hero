@@ -1,0 +1,32 @@
+name: Build site with Hugo
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up Golang compiler
+        uses: actions/setup-go@v6
+        with:
+          go-version: 1.12
+
+      - name: Set up Hugo
+        shell: bash
+        run: |
+          CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@v0.73.0
+
+      - name: Build site with Hugo
+        run: |
+          hugo --minify
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: hugo-public
+          path: public/*
