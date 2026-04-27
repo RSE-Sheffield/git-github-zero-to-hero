@@ -5,6 +5,3 @@ pre: <b><i class="fa fa-question-circle" aria-hidden="true"></i> </b>
 title: FAQ, Glossary and Links
 weight: 6
 ---
-
-
-# FAQ, Glossary and Links

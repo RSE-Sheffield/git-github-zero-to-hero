@@ -1,6 +1,6 @@
 +++
 title = "Resolve Issues in Branches"
-date =  2021-05-13T17:58:45+03:00
+date = 2021-05-13T17:58:45+03:00
 weight = 3
 +++
 
@@ -8,7 +8,7 @@ weight = 3
 
 A **powerful tool for keeping track of tasks, enhancements, and bugs for your projects is the issues** feature of GitHub. You can access the issues associated with a repository through the <i class="fas fa-exclamation-circle"></i> **Issues** tab.
 
-They allow **storing conversations about tasks in the project repository**, visible to the whole team throughout the life cycle of the project, rather that them being buried in hard to navigate email chains! 💯 
+They allow **storing conversations about tasks in the project repository**, visible to the whole team throughout the life cycle of the project, rather that them being buried in hard to navigate email chains! 💯
 
 It's also **easy to see the status of tasks** as issues can be closed when completed, leaving the tasks still pending visible by default.
 
@@ -40,15 +40,15 @@ For more information, check out [Configuring issue templates for your repository
 
 ### <i class="fas fa-user-circle"></i> Open issue from templates
 
-To create a new issue navigate to the <i class="fas fa-exclamation-circle"></i> **Issues** tab 
+To create a new issue navigate to the <i class="fas fa-exclamation-circle"></i> **Issues** tab
 
 {{< figure src="/images/ag-issues-tab.png" >}}
 
-Click {{% button href="" %}} **New issue** {{% /button %}} 
+Click {{% button href="" %}} **New issue** {{% /button %}}
 
 {{< figure src="/images/ag-issue-init.png" >}}
 
-Because we are using GitHub Issue templates, we are immediatelly presented with the 3 issue templates I've created. 
+Because we are using GitHub Issue templates, we are immediatelly presented with the 3 issue templates I've created.
 
 To demonstrate, I'm going to open the **Add subtraction function** issue. To initiate the process, I click on {{% button href="" %}} **Get started** {{% /button %}} next to the issue template I want  to open.
 
@@ -67,15 +67,15 @@ The **special `-[ ]` list notation** means the **checkboxes will be interactive*
 When we're creating our issue, the main body contains two tabs:
 
 - **Write:** were you enter the contents of the issue in markdown
-- **Preview:** were you can preview what the content will look like when it is rendered once the issue is submited. 
+- **Preview:** were you can preview what the content will look like when it is rendered once the issue is submited.
 
 Toggle the tabs below to explore this feature. Note how the checklist is rendered in the Preview tab.
 
-{{< tabs groupId="issues" >}}
-{{% tab name="Write" %}}
+{{< tabs groupid="issues" >}}
+{{% tab title="Write" %}}
 {{< figure src="/images/ag-issue-sub.png" >}}
 {{% /tab %}}
-{{% tab name="Preview" %}}
+{{% tab title="Preview" %}}
 {{< figure src="/images/ag-issue-sub-preview.png" >}}
 {{% /tab %}}
 {{% /tabs %}}
@@ -93,7 +93,7 @@ To do this, I click on **Assignees** on the top-right which launches a drop-down
 
 {{% notice tip %}}
 
-You can **assign an issue to a team mate, add more or remove assignees at any point**, even after you've opened the issue. If your repo is public, **you can also assign issues to users who are not collaborators** on your repo. Just type in their username in the drop down menu textbox. 
+You can **assign an issue to a team mate, add more or remove assignees at any point**, even after you've opened the issue. If your repo is public, **you can also assign issues to users who are not collaborators** on your repo. Just type in their username in the drop down menu textbox.
 
 {{% /notice %}}
 
@@ -101,7 +101,7 @@ You can **assign an issue to a team mate, add more or remove assignees at any po
 
 Once I've assigned the issue to a team mate, I click {{% button href="" %}} **Submit new issue** {{% /button %}} to create it.
 
-The issue has now been **opened** and given a unique number (in this case #2). 
+The issue has now been **opened** and given a unique number (in this case #2).
 
 {{< figure src="/images/ag-issue-sub-cmpl.png" >}}
 
@@ -118,7 +118,7 @@ The issue is also now listed under the <i class="fas fa-exclamation-circle"></i>
 
 {{% notice warning %}}
 
-Make sure you have <strong>opened and assigned a unique issue to each member</strong> of your team! 
+Make sure you have <strong>opened and assigned a unique issue to each member</strong> of your team!
 
 {{% /notice %}}
 
@@ -159,7 +159,7 @@ Start by clicking the {{% button href="" %}} **Branch** <br> **<i class="fas fa-
 
 {{< figure src="/images/ag-sub-branch-init.png" >}}
 
-The **`subtract` branch has now been created and been checked out** (indicated by the fact that the the **<i class="fas fa-check-square" style="color:#7CFF7E; background-color:black; padding:2px"></i> <i class="fas fa-code-branch"></i> subtract** branch in the **<i class="fas fa-laptop"></i> local** repository is now checked). 
+The **`subtract` branch has now been created and been checked out** (indicated by the fact that the the **<i class="fas fa-check-square" style="color:#7CFF7E; background-color:black; padding:2px"></i> <i class="fas fa-code-branch"></i> subtract** branch in the **<i class="fas fa-laptop"></i> local** repository is now checked).
 
 {{< figure src="/images/ag-sub-branch.png" >}}
 
@@ -169,7 +169,7 @@ The next step in Bob's instructions is to create a new `subtract.py` file in the
 
 A nice feature of GitKraken Client is that, as well as a basic text editor, it also **allows us to create new files!**
 
-To create a new file, **first launch GitKraken Client's Command Palette** with 
+To create a new file, **first launch GitKraken Client's Command Palette** with
 <img src="/images/command-symbol.png" width="2px" style="align:left; display:inline; margin:0;"/> **| Ctrl + P**
 
 Next, type **File**. This launches a dropdown menu of action you can perform on files. Select **Create file**.
@@ -241,7 +241,7 @@ Once the file is open for editing, **add the import line of code from your issue
 
 The next step in Bob's instructions is to create a new `test_subtract.py` file in the `tests/` directory and paste the code for the `subtract` function test.
 
-To create the new file, **launch GitKraken Client's Command Palette** again with 
+To create the new file, **launch GitKraken Client's Command Palette** again with
 <img src="/images/command-symbol.png" width="2px" style="align:left; display:inline; margin:0;"/> **| Ctrl + P**
 
 Next, type **File** to launches the file action dropdown menu. Select **Create file** and **type in the path to the new file you want to create**, In Bob's case it's `tests/test_subtract.py` and hit **Enter|Return**.

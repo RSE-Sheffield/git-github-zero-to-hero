@@ -1,7 +1,10 @@
 ---
 date: "2020-08-05T14:40:58+01:00"
 title: Credits
-weight: 5
+weight: 100
+hidden: true
+chapter: false
+disableToc: false
 ---
 
 ## Content

@@ -94,7 +94,7 @@ as unit, integration and regression tests, linting of code to ensure it complies
 releasing packages. This, along with careful code review of Pull Requests, helps ensure that newly submitted code does
 not break software.
 
-### Does Github not have a staging area?
+### Does GitHub not have a staging area?
 
 Not when making edits directly to a single file online via GitHub as typically you are only changing a single file so
 there is no need to choose which files to stage. However, rather than committing them directly to the branch you are

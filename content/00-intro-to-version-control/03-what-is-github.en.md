@@ -1,5 +1,5 @@
 ---
-title: Github
+title: GitHub
 weight: 3
 ---
 

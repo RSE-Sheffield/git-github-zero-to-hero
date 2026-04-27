@@ -1,7 +1,10 @@
 ---
 date: "2022-10-31T09:47:00+01:00"
 title: Online Learning Platforms
-weight: 5
+weight: 100
+hidden: true
+chapter: false
+disableToc: false
 ---
 
 This page is for keeping some useful resources in running this course online.

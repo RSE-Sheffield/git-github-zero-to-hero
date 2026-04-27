@@ -1,10 +1,10 @@
 ---
-title: Github
+title: GitHub
 weight: 5
 ---
 
 
-You will also need an account at [github.com](https://github.com/). 
+You will also need an account at [github.com](https://github.com/).
 
 #### Getting a GitHub account
 
